@@ -1,0 +1,377 @@
+{
+ "version": "2026-11-01",
+ "presets": [
+  {
+   "key": "cube",
+   "rev": 2,
+   "pointName": "小樹點",
+   "bank": "國泰",
+   "name": "CUBE 卡",
+   "unit": "點",
+   "pointValue": 1,
+   "base": 0.3,
+   "switch": "daily",
+   "note": "每天只能用一種權益；當天 23:59 前最後切的權益，適用當天 0 點起所有消費（依授權日）。玩數位／樂饗購／趣旅行 3% 需 Level 2（國泰帳戶自動扣繳卡費）。",
+   "src": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/CUBE_rights/index.html",
+   "updated": "2026-11-01",
+   "plans": [
+    {
+     "id": "digital",
+     "name": "玩數位",
+     "rules": [
+      {
+       "label": "玩數位 3%",
+       "rate": 2.7,
+       "category": "訂閱",
+       "keywords": "ChatGPT,OpenAI,Claude,Anthropic,Gemini,Notion,Canva,APPLE.COM,iTunes,Google Play,NETFLIX,SPOTIFY,YOUTUBE,蝦皮,Shopee,momo,PChome,Coupang,酷澎,淘寶,天貓"
+      }
+     ]
+    },
+    {
+     "id": "shopping",
+     "name": "樂饗購",
+     "rules": [
+      {
+       "label": "樂饗購 3%",
+       "rate": 2.7,
+       "keywords": "SOGO,新光三越,微風,誠品,台北101,星巴克,麥當勞,50嵐,康是美,屈臣氏,日藥本舖,UBER EATS,UBEREATS,foodpanda"
+      }
+     ]
+    },
+    {
+     "id": "travel",
+     "name": "趣旅行",
+     "rules": [
+      {
+       "label": "趣旅行 3%",
+       "rate": 2.7,
+       "fx": true,
+       "keywords": "高鐵,UBER,Grab,KKday,Klook,Agoda,Airbnb,Booking,Expedia,航空,飯店,HOTEL,旅行社",
+       "exclude": "UBER EATS,UBEREATS"
+      }
+     ]
+    },
+    {
+     "id": "select",
+     "name": "集精選",
+     "rules": [
+      {
+       "label": "集精選 2%",
+       "rate": 1.7,
+       "keywords": "家樂福,LOPIA,全聯,中油,7-ELEVEN,7ELEVEN,統一超商,全家,IKEA,充電,停車"
+      }
+     ]
+    },
+    {
+     "id": "pxpay",
+     "name": "全支付",
+     "rules": [
+      {
+       "label": "全支付 2%",
+       "rate": 1.7,
+       "keywords": "全支付,PX Pay,PXPay"
+      }
+     ]
+    },
+    {
+     "id": "fpg",
+     "name": "台塑家",
+     "rules": [
+      {
+       "label": "台塑家 2%",
+       "rate": 1.7,
+       "keywords": "台塑,台亞,福懋,速邁樂,7-ELEVEN,7ELEVEN,全家,萊爾富"
+      }
+     ]
+    },
+    {
+     "id": "autumn",
+     "name": "秋日遊",
+     "from": "2026-10-01",
+     "to": "2026-11-30",
+     "after": "select",
+     "src": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/japanrewards/index.html",
+     "note": "限時方案 2026/10/1–11/30（春季叫「日本賞」）；12/1 起系統自動改回集精選。領券加碼部分沒算進來。",
+     "rules": [
+      {
+       "label": "日本實體 3.5%",
+       "rate": 3.2,
+       "fx": "JPY",
+       "keywords": "GO Taxi,Tabelog,TableCheck,OMAKASE,國泰航空,台灣虎航,KKday,易遊網,Agoda,可樂旅遊,東南旅遊,Club Med,摩斯,壽司郎,日藥本舖"
+      },
+      {
+       "label": "日系人氣店 5%",
+       "rate": 4.7,
+       "keywords": "寶可夢中心,SANRIO,三麗鷗,KIDDY LAND,Alpen,ABC-MART,3COINS,Loft,錢都,爭鮮,客美多,すき家,必勝客,明曜,Xpark,DON DON DONKI,唐吉訶德,UNITED ARROWS,JR東日本大飯店,寒沐,索拉利亞,大倉久和,加賀屋"
+      },
+      {
+       "label": "國內日系餐飲 8%",
+       "rate": 7.7,
+       "keywords": "雞湯桑,橘色涮涮屋,Extension 1,朝炭,初魚,天麩羅,濟安鮨,侍燒肉,梵燒肉,元一,鳥苑,すみか,山崎,成蔵,HANDS,台隆手創館"
+      },
+      {
+       "label": "遠東SOGO 4%",
+       "rate": 3.7,
+       "keywords": "SOGO,遠東百貨"
+      },
+      {
+       "label": "日系 3%",
+       "rate": 2.7,
+       "keywords": "MITSUI OUTLET,三井OUTLET,LaLaport,UNIQLO,GU,Trip.com,Klook"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "unicard",
+   "rev": 2,
+   "pointName": "玉山 e point",
+   "bank": "玉山",
+   "name": "Unicard",
+   "unit": "元",
+   "pointValue": 1,
+   "base": 1,
+   "switch": "monthly",
+   "note": "回饋以「當月最後一天」設定的方案計算整個月。一般 1% 需玉山帳戶自動扣繳＋電子帳單，否則 0.3%。Up選每月 149 點，每月 1 日自動續訂。超商、全聯、繳費通常不回饋。",
+   "src": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard",
+   "updated": "2026-11-01",
+   "plans": [
+    {
+     "id": "simple",
+     "name": "簡單選",
+     "rules": [
+      {
+       "label": "百大特店 +2%",
+       "rate": 2,
+       "cap": 1000,
+       "fx": true,
+       "keywords": "LINE Pay,街口,悠遊付,全盈,全支付,玉山Wallet,支付寶,中油,台鐵,高鐵,UBER,台塑石油,新光三越,遠東,SOGO,微風,台北101,誠品,UBER EATS,foodpanda,王品,中華航空,華航,長榮,日本航空,Trip.com,Klook,KKday,Apple,小米,拓元,威秀,國賓,錢櫃,家樂福,屈臣氏,康是美,UNIQLO,杏一,momo,蝦皮,淘寶,Coupang,酷澎,特斯拉",
+       "exclude": "7-ELEVEN,7ELEVEN,全家,萊爾富,全聯"
+      }
+     ]
+    },
+    {
+     "id": "pick",
+     "name": "任意選",
+     "rules": [
+      {
+       "label": "自選 8 家 +2.5%",
+       "rate": 2.5,
+       "cap": 1000,
+       "keywords": "LINE Pay,街口,蝦皮,momo,UBER EATS,foodpanda,家樂福,中油",
+       "exclude": "7-ELEVEN,7ELEVEN,全家,萊爾富,全聯"
+      }
+     ]
+    },
+    {
+     "id": "up",
+     "name": "Up選",
+     "cost": 149,
+     "rules": [
+      {
+       "label": "百大特店 +3.5%",
+       "rate": 3.5,
+       "cap": 5000,
+       "fx": true,
+       "keywords": "LINE Pay,街口,悠遊付,全盈,全支付,玉山Wallet,支付寶,中油,台鐵,高鐵,UBER,台塑石油,新光三越,遠東,SOGO,微風,台北101,誠品,UBER EATS,foodpanda,王品,中華航空,華航,長榮,日本航空,Trip.com,Klook,KKday,Apple,小米,拓元,威秀,國賓,錢櫃,家樂福,屈臣氏,康是美,UNIQLO,杏一,momo,蝦皮,淘寶,Coupang,酷澎,特斯拉",
+       "exclude": "7-ELEVEN,7ELEVEN,全家,萊爾富,全聯"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "richart",
+   "rev": 2,
+   "pointName": "台新 Point",
+   "bank": "台新",
+   "name": "Richart 卡",
+   "unit": "點",
+   "pointValue": 1,
+   "base": 0.3,
+   "switch": "daily",
+   "note": "每日限切換一次（所有台新卡合併計算）；當天 23:59 系統留存的方案適用當天所有交易，依商家拋送的消費日判定。3.3% 需 LEVEL 2（台新帳戶自動扣繳）。活動期間 2026/7/1–2027/12/31。",
+   "src": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/future/ab46dfa7-5d88-11f1-b50f-0050568c09e3",
+   "updated": "2026-11-01",
+   "plans": [
+    {
+     "id": "pay",
+     "name": "Pay著刷",
+     "rules": [
+      {
+       "label": "台新Pay 3.8%",
+       "rate": 3.5,
+       "keywords": "台新Pay,TaishinPay"
+      },
+      {
+       "label": "LINE Pay／全盈+Pay 2.3%",
+       "rate": 2,
+       "keywords": "LINE Pay,全盈"
+      }
+     ]
+    },
+    {
+     "id": "daily",
+     "name": "天天刷",
+     "rules": [
+      {
+       "label": "天天刷 3.3%",
+       "rate": 3,
+       "keywords": "全家,萬家福,大買家,高鐵,台鐵,UBER,中油,台塑石油,加油,充電,康是美,屈臣氏,藥局,大樹,杏一",
+       "exclude": "UBER EATS,UBEREATS"
+      }
+     ]
+    },
+    {
+     "id": "big",
+     "name": "大筆刷",
+     "rules": [
+      {
+       "label": "大筆刷 3.3%",
+       "rate": 3,
+       "keywords": "百貨,新光三越,SOGO,遠東,微風,Outlet,IKEA,特力屋,HOLA,UNIQLO,ZARA,GU"
+      }
+     ]
+    },
+    {
+     "id": "food",
+     "name": "好饗刷",
+     "rules": [
+      {
+       "label": "好饗刷 3.3%",
+       "rate": 3,
+       "category": "餐飲",
+       "keywords": "UBER EATS,UBEREATS,foodpanda,KTV,錢櫃,好樂迪,威秀,國賓,飯店,拓元,KKTIX"
+      }
+     ]
+    },
+    {
+     "id": "digital",
+     "name": "數趣刷",
+     "rules": [
+      {
+       "label": "數趣刷 3.3%",
+       "rate": 3,
+       "category": "訂閱",
+       "keywords": "蝦皮,momo,PChome,Coupang,酷澎,NETFLIX,SPOTIFY,YOUTUBE,ChatGPT,OpenAI,Claude,Steam,Hahow"
+      }
+     ]
+    },
+    {
+     "id": "travel",
+     "name": "玩旅刷",
+     "rules": [
+      {
+       "label": "玩旅刷 3.3%",
+       "rate": 3,
+       "fx": true,
+       "keywords": "航空,Agoda,Booking,Klook,KKday,Trip.com,Expedia,Hotels.com,旅行社,雄獅,易遊網"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "dbs-eco",
+   "rev": 1,
+   "pointName": "星展現金積點",
+   "bank": "星展",
+   "name": "eco 永續卡",
+   "unit": "點",
+   "pointValue": 1,
+   "base": 1,
+   "note": "國內外一般 1% 無上限（保費也算）。日韓泰新、美洲、歐洲要在當地實體店刷實體卡或 Apple／Samsung Pay、外幣結帳才有 5%，網購外幣、Suica／PASMO 儲值不算；加碼每期帳單上限 600 點。eco 指定品牌 10%（2026/7/1–12/31）要在帳單上顯示該店名，街口、LINE Pay 等第三方支付不算，加碼每期上限 500 點。1 點＝1 元，300 點起折抵。",
+   "src": "https://www.dbs.com.tw/personal-zh/cards/dbs_eco/index.html",
+   "updated": "2026-11-01",
+   "rules": [
+    {
+     "label": "指定地區 5%",
+     "rate": 4,
+     "cap": 600,
+     "fx": "JPY|KRW|THB|SGD|USD|CAD|MXN|BRL|EUR|GBP|CHF|SEK|NOK|DKK|CZK|PLN|HUF",
+     "to": "2026-12-31",
+     "exclude": "AMAZON,APPLE.COM,GOOGLE,NETFLIX,SPOTIFY,STEAM,OPENAI,PASMO,SUICA,ICOCA"
+    },
+    {
+     "label": "eco 指定品牌 10%",
+     "rate": 9,
+     "cap": 500,
+     "from": "2026-07-01",
+     "to": "2026-12-31",
+     "keywords": "Tesla,特斯拉,Gogoro,鮮乳坊,茶籽堂,nextdoorfresh,直接跟農夫買,玩轉學校,甘樂文創,禾乃川,馳綠,艾瑪絲,覺亞,EVOPURE,優織隆,綠藤,藍鵲茶,銀色大門,多扶假期,淨毒五郎",
+     "exclude": "街口,LINE Pay,全支付"
+    }
+   ]
+  }
+ ],
+ "campaigns": [
+  {
+   "key": "esun-taobao-2026-11",
+   "bank": "玉山",
+   "title": "淘寶／天貓 11 月累積滿額加碼",
+   "keywords": "淘寶,TAOBAO,天貓,TMALL",
+   "from": "2026-11-01",
+   "to": "2026-11-30",
+   "minPerTxn": 2500,
+   "unit": "點",
+   "tiers": [
+    {
+     "min": 5000,
+     "rate": 4,
+     "cap": 700
+    },
+    {
+     "min": 20000,
+     "rate": 7,
+     "cap": 2400
+    }
+   ],
+   "register": [
+    {
+     "at": "2026-11-23T13:00",
+     "quota": 1500,
+     "url": "https://esun.co/raZc3"
+    },
+    {
+     "at": "2026-11-28T13:00",
+     "quota": 1500,
+     "url": "https://esun.co/kSuSD"
+    }
+   ],
+   "note": "每筆滿 2,500 才累積；擇優回饋一次，歸戶上限 2,400 點。要下載並註冊玉山Wallet。淘寶用 Visa／Master／JCB 付款會被收 3% 服務費。點數 2027/1 中旬後入帳。",
+   "src": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=2021_11",
+   "updated": "2026-11-01"
+  },
+  {
+   "key": "esun-taobao-1111-2026",
+   "bank": "玉山",
+   "title": "淘寶雙11補貨 單筆滿額送點",
+   "keywords": "淘寶,TAOBAO,天貓,TMALL",
+   "from": "2026-11-07",
+   "to": "2026-11-13",
+   "unit": "點",
+   "cap": 1600,
+   "perTxn": [
+    {
+     "min": 15000,
+     "pts": 300
+    },
+    {
+     "min": 40000,
+     "pts": 1600
+    }
+   ],
+   "register": [
+    {
+     "at": "2026-11-17T13:00",
+     "quota": 800,
+     "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=2021_11"
+    }
+   ],
+   "note": "單筆滿 15,000 送 300 點、滿 40,000 送 1,600 點，歸戶上限 1,600 點。",
+   "src": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=2021_11",
+   "updated": "2026-11-01"
+  }
+ ]
+}
