@@ -2181,156 +2181,292 @@
   "小樹點": [
    {
     "p": "長榮",
+    "pts": 360,
+    "mi": 1000,
     "ppm": 0.36,
-    "to": "2026-12-31"
+    "to": "2026-12-31",
+    "src": "udn"
    },
    {
     "p": "亞洲萬里通",
+    "pts": 360,
+    "mi": 1000,
     "ppm": 0.36,
-    "to": "2026-12-31"
+    "to": "2026-12-31",
+    "src": "udn"
    },
    {
     "p": "華航",
+    "pts": 840,
+    "mi": 1000,
     "ppm": 0.84,
-    "to": "2026-12-31"
+    "to": "2026-12-31",
+    "src": "udn"
    },
    {
     "p": "法荷",
+    "pts": 340,
+    "mi": 1000,
     "ppm": 0.34,
-    "to": "2026-12-31"
-   },
-   {
-    "p": "長榮",
-    "ppm": 0.38,
-    "from": "2027-01-01"
-   },
-   {
-    "p": "亞洲萬里通",
-    "ppm": 0.39,
-    "from": "2027-01-01"
-   },
-   {
-    "p": "華航",
-    "ppm": 1,
-    "from": "2027-01-01"
-   },
-   {
-    "p": "法荷",
-    "ppm": 0.5,
-    "from": "2027-01-01"
+    "to": "2026-12-31",
+    "src": "udn"
    },
    {
     "p": "日航",
-    "ppm": 0.48
+    "pts": 480,
+    "mi": 1000,
+    "ppm": 0.48,
+    "to": "2026-12-31",
+    "src": "udn"
+   },
+   {
+    "p": "長榮",
+    "pts": 380,
+    "mi": 1000,
+    "ppm": 0.38,
+    "from": "2027-01-01",
+    "src": "cathay27"
+   },
+   {
+    "p": "亞洲萬里通",
+    "pts": 390,
+    "mi": 1000,
+    "ppm": 0.39,
+    "from": "2027-01-01",
+    "src": "cathay27"
+   },
+   {
+    "p": "華航",
+    "pts": 1000,
+    "mi": 1000,
+    "ppm": 1,
+    "from": "2027-01-01",
+    "src": "cathay27"
+   },
+   {
+    "p": "法荷",
+    "pts": 500,
+    "mi": 1000,
+    "ppm": 0.5,
+    "from": "2027-01-01",
+    "src": "cathay27"
+   },
+   {
+    "p": "日航",
+    "pts": 480,
+    "mi": 1000,
+    "ppm": 0.48,
+    "from": "2027-01-01",
+    "src": "cathay27"
    }
   ],
   "玉山 e point": [
    {
     "p": "長榮",
-    "ppm": 0.6666666666666666
+    "pts": 200,
+    "mi": 300,
+    "ppm": 0.6667,
+    "src": "udn"
    },
    {
     "p": "亞洲萬里通",
-    "ppm": 0.6666666666666666
+    "pts": 200,
+    "mi": 300,
+    "ppm": 0.6667,
+    "src": "udn"
    },
    {
     "p": "華航",
-    "ppm": 1.1111111111111112
+    "pts": 200,
+    "mi": 180,
+    "ppm": 1.1111,
+    "src": "udn"
    }
   ],
   "台新 Point": [
    {
     "p": "華航",
-    "ppm": 0.7857142857142857
+    "pts": 11,
+    "mi": 14,
+    "ppm": 0.7857,
+    "src": "taishin"
    },
    {
     "p": "長榮",
-    "ppm": 0.8461538461538461
+    "pts": 11,
+    "mi": 13,
+    "ppm": 0.8462,
+    "src": "taishin"
    },
    {
     "p": "亞洲萬里通",
-    "ppm": 0.5555555555555556
+    "pts": 10,
+    "mi": 18,
+    "ppm": 0.5556,
+    "src": "taishin",
+    "ok": false,
+    "note": "有文章說 Richart Life 2024/8 起停止線上換亞萬，要打客服換"
    }
   ],
   "OPENPOINT": [
    {
     "p": "長榮",
-    "ppm": 0.675
+    "pts": 135,
+    "mi": 200,
+    "ppm": 0.675,
+    "src": "udn"
    },
    {
     "p": "亞洲萬里通",
-    "ppm": 0.68
+    "pts": 68,
+    "mi": 100,
+    "ppm": 0.68,
+    "src": "udn"
    },
    {
     "p": "ANA",
-    "ppm": 0.94
+    "pts": 188,
+    "mi": 200,
+    "ppm": 0.94,
+    "src": "ana"
    }
   ],
   "滙豐旅遊積分": [
    {
     "p": "長榮",
-    "ppm": 1
+    "pts": 1,
+    "mi": 1,
+    "ppm": 1,
+    "src": "m101"
    },
    {
     "p": "華航",
-    "ppm": 1
+    "pts": 1,
+    "mi": 1,
+    "ppm": 1,
+    "src": "m101"
    },
    {
     "p": "亞洲萬里通",
-    "ppm": 1
+    "pts": 1,
+    "mi": 1,
+    "ppm": 1,
+    "src": "m101"
    },
    {
     "p": "日航",
-    "ppm": 1
+    "pts": 1,
+    "mi": 1,
+    "ppm": 1,
+    "src": "m101"
    },
    {
     "p": "法荷",
-    "ppm": 1
+    "pts": 1,
+    "mi": 1,
+    "ppm": 1,
+    "src": "m101"
    }
   ],
   "凱基哩程點": [
    {
     "p": "華航",
-    "ppm": 1
+    "pts": 1,
+    "mi": 1,
+    "ppm": 1,
+    "src": "miles"
    },
    {
     "p": "長榮",
-    "ppm": 1
+    "pts": 1,
+    "mi": 1,
+    "ppm": 1,
+    "src": "miles"
    },
    {
     "p": "亞洲萬里通",
-    "ppm": 1
+    "pts": 1,
+    "mi": 1,
+    "ppm": 1,
+    "src": "miles"
    }
   ],
   "亞洲萬里通": [
    {
     "p": "亞洲萬里通",
-    "ppm": 1
+    "pts": 1,
+    "mi": 1,
+    "ppm": 1,
+    "native": true
    }
   ],
   "長榮哩程": [
    {
     "p": "長榮",
-    "ppm": 1
+    "pts": 1,
+    "mi": 1,
+    "ppm": 1,
+    "native": true
    }
   ],
   "華航哩程": [
    {
     "p": "華航",
-    "ppm": 1
+    "pts": 1,
+    "mi": 1,
+    "ppm": 1,
+    "native": true
    }
   ],
   "星宇哩程": [
    {
     "p": "星宇",
-    "ppm": 1
+    "pts": 1,
+    "mi": 1,
+    "ppm": 1,
+    "native": true
    }
   ],
   "ANA哩程": [
    {
     "p": "ANA",
-    "ppm": 1
+    "pts": 1,
+    "mi": 1,
+    "ppm": 1,
+    "native": true
    }
   ]
+ },
+ "convertMeta": {
+  "checked": "2026-11-01",
+  "src": {
+   "cathay27": {
+    "name": "國泰世華官網 2027 點數公告",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/discount/2027/pointannounceInfo/index.html",
+    "official": true
+   },
+   "taishin": {
+    "name": "台新銀行官網 點數兌換",
+    "url": "https://www.taishinbank.com.tw/TSB/personal/common/bonus/TSBankBonus-002286/",
+    "official": true
+   },
+   "ana": {
+    "name": "ANA 官網 OPENPOINT 兌換",
+    "url": "https://www.ana.co.jp/zh/tw/amc/exchange-point/openpoint/",
+    "official": true
+   },
+   "udn": {
+    "name": "經濟日報 2026 點數換哩程整理",
+    "url": "https://money.udn.com/money/story/124512/9836064"
+   },
+   "m101": {
+    "name": "Money101 哩程卡整理",
+    "url": "https://www.money101.com.tw/blog/"
+   },
+   "miles": {
+    "name": "哩程卡比較整理",
+    "url": ""
+   }
+  }
  }
 }
