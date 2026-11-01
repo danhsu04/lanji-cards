@@ -1117,6 +1117,229 @@
    "src": "https://www.money101.com.tw/blog/20151110-%E5%89%B5%E9%80%A0%E8%B2%A1%E5%AF%8C%E7%9A%845%E7%A8%AE%E6%B3%95%E5%89%87",
    "updated": "2026-11-01",
    "compiled": true
+  },
+  {
+   "key": "hsbc-traveler-sig",
+   "rev": 1,
+   "bank": "滙豐",
+   "name": "旅人御璽卡",
+   "unit": "哩",
+   "pointValue": 0.3,
+   "pointName": "滙豐旅遊積分",
+   "base": 5.556,
+   "rules": [
+    {
+     "label": "海外 15 元 1 哩",
+     "rate": 1.111,
+     "fx": true
+    }
+   ],
+   "note": "國內 18 元 1 哩。旅遊積分可 1:1 轉 15 家以上航空，無上限。 1 哩約值 NT$0.3 是估計，可在卡片設定裡改。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.money101.com.tw/blog/20151110-%E5%89%B5%E9%80%A0%E8%B2%A1%E5%AF%8C%E7%9A%845%E7%A8%AE%E6%B3%95%E5%89%87",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "hsbc-traveler-inf",
+   "rev": 1,
+   "bank": "滙豐",
+   "name": "旅人無限卡",
+   "unit": "哩",
+   "pointValue": 0.3,
+   "pointName": "滙豐旅遊積分",
+   "base": 5.556,
+   "rules": [
+    {
+     "label": "海外 10 元 1 哩",
+     "rate": 4.444,
+     "fx": true
+    }
+   ],
+   "note": "國內 18 元 1 哩。旅遊積分可 1:1 轉 15 家以上航空，無上限。 1 哩約值 NT$0.3 是估計，可在卡片設定裡改。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.money101.com.tw/blog/20151110-%E5%89%B5%E9%80%A0%E8%B2%A1%E5%AF%8C%E7%9A%845%E7%A8%AE%E6%B3%95%E5%89%87",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "hsbc-traveler-lite",
+   "rev": 1,
+   "bank": "滙豐",
+   "name": "旅人輕旅卡",
+   "unit": "哩",
+   "pointValue": 0.3,
+   "pointName": "滙豐旅遊積分",
+   "base": 5,
+   "rules": [],
+   "note": "國內 20 元 1 哩。旅遊積分可 1:1 轉 15 家以上航空，效期 3 年。 1 哩約值 NT$0.3 是估計，可在卡片設定裡改。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://roo.cash/blog/mileage-credit-card",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "taishin-cx-ti",
+   "rev": 1,
+   "bank": "台新",
+   "name": "國泰航空鈦金卡",
+   "unit": "哩",
+   "pointValue": 0.4,
+   "pointName": "亞洲萬里通",
+   "base": 3.333,
+   "rules": [
+    {
+     "label": "海外 25 元 1 哩",
+     "rate": 0.667,
+     "fx": true
+    },
+    {
+     "label": "指定通路 5 元 1 哩",
+     "rate": 16.667,
+     "keywords": "國泰航空,CATHAY PACIFIC,CATHAYPACIFIC"
+    }
+   ],
+   "note": "國內 30 元 1 哩。國泰官網購票 5 元 1 哩需每半年搭國泰 1 次。 1 哩約值 NT$0.4 是估計，可在卡片設定裡改。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://roo.cash/blog/mileage-credit-card",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "taishin-cx-soar",
+   "rev": 1,
+   "bank": "台新",
+   "name": "國泰航空翱翔鈦金卡",
+   "unit": "哩",
+   "pointValue": 0.4,
+   "pointName": "亞洲萬里通",
+   "base": 4,
+   "rules": [
+    {
+     "label": "海外 15 元 1 哩",
+     "rate": 2.667,
+     "fx": true
+    },
+    {
+     "label": "指定通路 5 元 1 哩",
+     "rate": 16,
+     "keywords": "國泰航空,CATHAY PACIFIC,CATHAYPACIFIC"
+    }
+   ],
+   "note": "國內 25 元 1 哩。國泰官網購票 5 元 1 哩需每半年搭國泰 1 次。 1 哩約值 NT$0.4 是估計，可在卡片設定裡改。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://roo.cash/blog/mileage-credit-card",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "taishin-cx-world",
+   "rev": 1,
+   "bank": "台新",
+   "name": "國泰航空世界卡",
+   "unit": "哩",
+   "pointValue": 0.4,
+   "pointName": "亞洲萬里通",
+   "base": 4.545,
+   "rules": [
+    {
+     "label": "海外 15 元 1 哩",
+     "rate": 2.122,
+     "fx": true
+    },
+    {
+     "label": "指定通路 5 元 1 哩",
+     "rate": 15.455,
+     "keywords": "國泰航空,CATHAY PACIFIC,CATHAYPACIFIC"
+    }
+   ],
+   "note": "國內 22 元 1 哩。國泰官網購票 5 元 1 哩需每半年搭國泰 1 次。 1 哩約值 NT$0.4 是估計，可在卡片設定裡改。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://roo.cash/blog/mileage-credit-card",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "cathay-asiamiles",
+   "rev": 1,
+   "bank": "國泰",
+   "name": "亞洲萬里通聯名卡",
+   "unit": "哩",
+   "pointValue": 0.4,
+   "pointName": "亞洲萬里通",
+   "base": 4,
+   "rules": [
+    {
+     "label": "海外 10 元 1 哩",
+     "rate": 6,
+     "fx": true
+    },
+    {
+     "label": "指定通路 10 元 1 哩",
+     "rate": 6,
+     "keywords": "國泰航空,CATHAY PACIFIC,CATHAYPACIFIC"
+    }
+   ],
+   "note": "國內 25 元 1 哩。海外與加速器商店 10 元 1 哩，每期帳單回饋上限 10 萬元消費；生日月加速器 5 元 1 哩。 1 哩約值 NT$0.4 是估計，可在卡片設定裡改。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://roo.cash/blog/mileage-credit-card",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "kgi-dualcurrency",
+   "rev": 1,
+   "bank": "凱基",
+   "name": "雙幣哩程卡",
+   "unit": "哩",
+   "pointValue": 0.4,
+   "pointName": "凱基哩程點",
+   "base": 4.545,
+   "rules": [],
+   "note": "國內 22 元 1 哩。哩程點 1:1 兌華航、長榮、亞洲萬里通；財管會員國內 18、海外 12 元 1 哩；每期上限 2 萬點。 1 哩約值 NT$0.4 是估計，可在卡片設定裡改。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://roo.cash/blog/mileage-credit-card",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "ctbc-ci-infinite",
+   "rev": 1,
+   "bank": "中信",
+   "name": "中華航空鼎尊無限卡",
+   "unit": "哩",
+   "pointValue": 0.4,
+   "pointName": "華航哩程",
+   "base": 5.556,
+   "rules": [
+    {
+     "label": "指定通路 9 元 1 哩",
+     "rate": 5.555,
+     "keywords": "中華航空,CHINA AIRLINES,CHINAAIRLINES"
+    }
+   ],
+   "note": "國內 18 元 1 哩。年費 22,000；華航官網購票 9 元 1 哩，生日月海外實體 6 元 1 哩。 1 哩約值 NT$0.4 是估計，可在卡片設定裡改。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://roo.cash/blog/mileage-credit-card",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "amex-eva-plat",
+   "rev": 1,
+   "bank": "美國運通",
+   "name": "長榮航空簽帳白金卡",
+   "unit": "哩",
+   "pointValue": 0.4,
+   "pointName": "長榮哩程",
+   "base": 4,
+   "rules": [
+    {
+     "label": "海外 16.7 元 1 哩",
+     "rate": 1.988,
+     "fx": true
+    },
+    {
+     "label": "指定通路 16.7 元 1 哩",
+     "rate": 1.988,
+     "keywords": "長榮航空,EVA AIR,EVAAIR,長榮假期"
+    }
+   ],
+   "note": "國內 25 元 1 哩。海外與長榮機票加碼 50%（約 16.7 元 1 哩）。 1 哩約值 NT$0.4 是估計，可在卡片設定裡改。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://roo.cash/blog/mileage-credit-card",
+   "updated": "2026-11-01",
+   "compiled": true
   }
  ],
  "campaigns": [
