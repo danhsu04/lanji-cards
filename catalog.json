@@ -273,6 +273,38 @@
    ]
   },
   {
+   "key": "esun-ubear",
+   "rev": 1,
+   "pointName": "現金回饋",
+   "bank": "玉山",
+   "name": "U Bear 卡",
+   "unit": "元",
+   "pointValue": 1,
+   "base": 1,
+   "note": "一般 1% 要同時申辦電子帳單＋玉山帳戶自動扣繳，少一個只有 0.5%。網購 3%（加碼 2% 每月上限 150 元，約 NT$7,500）：網路與行動支付綁卡消費多半都算，Apple／Google／Samsung Pay 在實體店不算。訂閱 10%（Netflix、ChatGPT、Gemini、Steam、Nintendo、PlayStation，每期上限 100 元）。保費、超商街口、全聯、繳費、速食店通常不回饋。優惠期 2026/9/1–2027/2/28。回饋直接折抵帳單。",
+   "src": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/u-bear",
+   "updated": "2026-11-01",
+   "rules": [
+    {
+     "label": "指定訂閱 10%",
+     "rate": 9,
+     "cap": 100,
+     "from": "2026-09-01",
+     "to": "2027-02-28",
+     "keywords": "NETFLIX,ChatGPT,OPENAI,Gemini,GOOGLE ONE,Steam,Nintendo,任天堂,PlayStation,SONY INTERACTIVE"
+    },
+    {
+     "label": "網購 3%",
+     "rate": 2,
+     "cap": 150,
+     "from": "2026-09-01",
+     "to": "2027-02-28",
+     "keywords": "momo,PChome,蝦皮,Shopee,Yahoo,博客來,樂天,Coupang,酷澎,淘寶,天貓,Amazon,東森購物,生活市集,Pinkoi,UNIQLO 網路,GU 網路,Uber Eats,UBER EATS,foodpanda,KKday,Klook,Agoda,Booking,Trip.com,拓元,KKTIX,年代售票,Apple.com,APPLE.COM,Google Play,GOOGLE,LINE Pay,街口,Pi 拍錢包,全盈,悠遊付,橘子支付,icash Pay,全支付",
+     "exclude": "7-ELEVEN,7ELEVEN,全家,萊爾富,OK超商,全聯,麥當勞,肯德基,摩斯,保費,壽險"
+    }
+   ]
+  },
+  {
    "key": "dbs-eco",
    "rev": 1,
    "pointName": "星展現金積點",
