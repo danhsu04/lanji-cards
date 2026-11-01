@@ -335,6 +335,788 @@
      "exclude": "街口,LINE Pay,全支付"
     }
    ]
+  },
+  {
+   "key": "hsbc-cashback",
+   "rev": 1,
+   "bank": "滙豐",
+   "name": "現金回饋御璽卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 1.22,
+   "rules": [
+    {
+     "label": "海外 2.22%",
+     "rate": 1,
+     "fx": true
+    }
+   ],
+   "note": "整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.beurlife.com/2017/12/2018-High-Cash-Rebate-Credit-Card.html",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "hsbc-liveplus",
+   "rev": 1,
+   "bank": "滙豐",
+   "name": "Live+ 現金回饋卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 0.88,
+   "rules": [
+    {
+     "label": "餐飲購物娛樂 4.88%",
+     "rate": 4,
+     "keywords": "蝦皮,Shopee,momo,PChome,酷澎,Coupang,淘寶,天貓,Yahoo,博客來,樂天,東森,friDay,Amazon,eBay,GOMAJI,iHerb,SHEIN,Pinkoi,威秀,國賓,KTV,錢櫃,好樂迪,SOGO,新光三越,微風,UNIQLO",
+     "category": "餐飲",
+     "cap": 1088
+    }
+   ],
+   "note": "餐飲、購物、娛樂 3.88%，滙豐帳戶自扣再加 1%；購物加碼每期上限 888 元。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://roo.cash/blog/online-shopping-creditcard-comparison",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "hsbc-diamond",
+   "rev": 1,
+   "bank": "滙豐",
+   "name": "匯鑽卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 1,
+   "rules": [
+    {
+     "label": "指定通路 6%",
+     "rate": 5,
+     "keywords": "蝦皮,Shopee,momo,PChome,酷澎,Coupang,淘寶,天貓,Yahoo,博客來,樂天,東森,friDay,Amazon,eBay,GOMAJI,iHerb,SHEIN,Pinkoi,Uber Eats,UBER EATS,foodpanda,NETFLIX,SPOTIFY",
+     "cap": 2000
+    }
+   ],
+   "note": "指定通路最高 6%，回饋上限 2,000 元；通路名單請以官網為準。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.money101.com.tw/blog/20151110-%E5%89%B5%E9%80%A0%E8%B2%A1%E5%AF%8C%E7%9A%845%E7%A8%AE%E6%B3%95%E5%89%87",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "kgi-eslite",
+   "rev": 1,
+   "bank": "凱基",
+   "name": "誠品聯名卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 2.3,
+   "rules": [],
+   "note": "不限通路 2.3%，每帳月消費上限 2 萬；500 元為單位折抵。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.beurlife.com/2017/12/2018-High-Cash-Rebate-Credit-Card.html",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "nextbank-dajiang",
+   "rev": 1,
+   "bank": "將來",
+   "name": "大將卡",
+   "unit": "點",
+   "pointValue": 1,
+   "pointName": "N點",
+   "base": 1.5,
+   "rules": [
+    {
+     "label": "海外 2.5%",
+     "rate": 1,
+     "fx": true
+    }
+   ],
+   "note": "需達存款或資產門檻。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.beurlife.com/2017/12/2018-High-Cash-Rebate-Credit-Card.html",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "tbb-esg",
+   "rev": 1,
+   "bank": "台企",
+   "name": "永續生活卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 1.5,
+   "rules": [
+    {
+     "label": "海外 2.5%",
+     "rate": 1,
+     "fx": true
+    }
+   ],
+   "note": "當月帳單滿 6,000 元且扣繳才有。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.beurlife.com/2017/12/2018-High-Cash-Rebate-Credit-Card.html",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "scsb-minions",
+   "rev": 1,
+   "bank": "上海商銀",
+   "name": "小小兵卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 1.234,
+   "rules": [
+    {
+     "label": "海外 2.234%",
+     "rate": 1,
+     "fx": true
+    }
+   ],
+   "note": "整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.beurlife.com/2017/12/2018-High-Cash-Rebate-Credit-Card.html",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "sinopac-dawho",
+   "rev": 1,
+   "bank": "永豐",
+   "name": "DAWHO 現金回饋卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 3.5,
+   "rules": [
+    {
+     "label": "海外 4.5%",
+     "rate": 1,
+     "fx": true
+    }
+   ],
+   "note": "一般 1%＋大戶等級加碼 2.5%（加碼每期上限 400 元，約刷 1.6 萬），先以 3.5% 計；大戶 Plus 加碼 4%。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://roo.cash/blog/online-shopping-creditcard-comparison",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "sinopac-dahu",
+   "rev": 1,
+   "bank": "永豐",
+   "name": "大戶卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 3.5,
+   "rules": [
+    {
+     "label": "海外 4.5%",
+     "rate": 1,
+     "fx": true
+    }
+   ],
+   "note": "一般 1%＋大戶等級加碼 2.5%（加碼每期上限 400 元），先以 3.5% 計；大戶 Plus 加碼 4%；悠遊卡自動加值另有加碼。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.beurlife.com/2017/12/2018-High-Cash-Rebate-Credit-Card.html",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "sinopac-jcb",
+   "rev": 1,
+   "bank": "永豐",
+   "name": "現金回饋 JCB 卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 1,
+   "rules": [
+    {
+     "label": "特選網購 4%",
+     "rate": 3,
+     "keywords": "蝦皮,Shopee,momo,PChome,酷澎,Coupang,淘寶,天貓,Yahoo,博客來,樂天,東森,friDay,Amazon,eBay,GOMAJI,iHerb,SHEIN,Pinkoi",
+     "cap": 300
+    },
+    {
+     "label": "海外 2%",
+     "rate": 1,
+     "fx": true
+    }
+   ],
+   "note": "特選網購加碼 3%，每期上限 300 元；每月消費滿 3,000 元。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://roo.cash/blog/online-shopping-creditcard-comparison",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "sinopac-daway",
+   "rev": 1,
+   "bank": "永豐",
+   "name": "DAWAY 卡",
+   "unit": "點",
+   "pointValue": 1,
+   "pointName": "LINE POINTS",
+   "base": 0.5,
+   "rules": [
+    {
+     "label": "LINE Pay 2%",
+     "rate": 1.5,
+     "keywords": "LINE Pay"
+    },
+    {
+     "label": "海外 2.5%",
+     "rate": 2,
+     "fx": true
+    }
+   ],
+   "note": "綁 LINE Pay 舊戶最高 2%（新戶 6%）；國內一般回饋未確認，先以 0.5% 計。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.bnext.com.tw/article/89718/2026-recommended-credit-card",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "sinopac-bibei",
+   "rev": 1,
+   "bank": "永豐",
+   "name": "幣倍卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 1,
+   "rules": [
+    {
+     "label": "海外 6%",
+     "rate": 5,
+     "fx": true,
+     "cap": 800
+    },
+    {
+     "label": "Apple／Google Pay 3%",
+     "rate": 2,
+     "keywords": "Apple Pay,Google Pay",
+     "cap": 200
+    }
+   ],
+   "note": "海外精選通路加碼 4%（每期上限 800 元）；Apple／Google Pay 加碼 2%（每月上限 200 元）。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.money101.com.tw/blog/20151110-%E5%89%B5%E9%80%A0%E8%B2%A1%E5%AF%8C%E7%9A%845%E7%A8%AE%E6%B3%95%E5%89%87",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "mega-esec",
+   "rev": 1,
+   "bank": "兆豐",
+   "name": "e 秒刷鈦金卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 0.5,
+   "rules": [
+    {
+     "label": "網購 3%",
+     "rate": 2.5,
+     "keywords": "蝦皮,Shopee,momo,PChome,酷澎,Coupang,淘寶,天貓,Yahoo,博客來,樂天,東森,friDay,Amazon,eBay,GOMAJI,iHerb,SHEIN,Pinkoi,NETFLIX,SPOTIFY,YOUTUBE,ChatGPT,OPENAI,Claude,Uber,UBER,foodpanda,Apple.com,Google Play",
+     "cap": 200,
+     "exclude": "街口,LINE Pay,歐付寶"
+    }
+   ],
+   "note": "網購（含串流、AI、叫車 App）2.5%，每期上限 200 元，扣繳再加 0.5%；街口、LINE Pay 等第三方支付不算。國內實體回饋未確認。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://roo.cash/blog/online-shopping-creditcard-comparison",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "ubot-linebank",
+   "rev": 1,
+   "bank": "聯邦",
+   "name": "LINE Bank 聯名卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 1,
+   "rules": [
+    {
+     "label": "指定網購影音 4%",
+     "rate": 3,
+     "keywords": "momo,PChome,淘寶,蝦皮,酷澎,Coupang,NETFLIX,SPOTIFY,YOUTUBE,Steam,PlayStation,Nintendo",
+     "cap": 300
+    },
+    {
+     "label": "海外 2.5%",
+     "rate": 1.5,
+     "fx": true
+    }
+   ],
+   "note": "指定網購、影音、遊戲加碼 3%，每月上限 300 元。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.beurlife.com/2017/12/2018-High-Cash-Rebate-Credit-Card.html",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "ctbc-linepay",
+   "rev": 1,
+   "bank": "中信",
+   "name": "LINE Pay 卡",
+   "unit": "點",
+   "pointValue": 1,
+   "pointName": "LINE POINTS",
+   "base": 1,
+   "rules": [
+    {
+     "label": "海外 2.8%",
+     "rate": 1.8,
+     "fx": true
+    }
+   ],
+   "note": "國外實體 2.8%；酷澎、蝦皮、PChome 等網購常有限時加碼。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://roo.cash/blog/online-shopping-creditcard-comparison",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "ctbc-uniopen",
+   "rev": 1,
+   "bank": "中信",
+   "name": "uniopen 聯名卡",
+   "unit": "點",
+   "pointValue": 1,
+   "pointName": "OPENPOINT",
+   "base": 1,
+   "rules": [
+    {
+     "label": "統一集團 3%",
+     "rate": 2,
+     "keywords": "7-ELEVEN,7ELEVEN,統一超商,康是美,家樂福,星巴克,STARBUCKS,Mister Donut,聖娜,21世紀,博客來,DREAM PLAZA,夢時代,阪急,統一時代,OPENPOINT,uniopen,黑貓宅急便"
+    },
+    {
+     "label": "海外 3%",
+     "rate": 2,
+     "fx": true
+    }
+   ],
+   "note": "統一集團通路 3%，海外實體 3%；常有登錄加碼到 11%。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.beurlife.com/2017/12/2018-High-Cash-Rebate-Credit-Card.html",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "esun-pi",
+   "rev": 1,
+   "bank": "玉山",
+   "name": "Pi 拍錢包信用卡",
+   "unit": "點",
+   "pointValue": 1,
+   "pointName": "P幣",
+   "base": 1,
+   "rules": [
+    {
+     "label": "Pi 拍錢包 3%",
+     "rate": 2,
+     "keywords": "Pi 拍錢包,Pi拍錢包,PChome"
+    }
+   ],
+   "note": "綁 Pi 拍錢包或指定通路有加碼，比例以官網為準。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.beurlife.com/2017/12/2018-High-Cash-Rebate-Credit-Card.html",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "fubon-momo",
+   "rev": 1,
+   "bank": "富邦",
+   "name": "momo 卡",
+   "unit": "點",
+   "pointValue": 1,
+   "pointName": "mo幣",
+   "base": 1,
+   "rules": [
+    {
+     "label": "momo 3%",
+     "rate": 2,
+     "keywords": "momo,富邦媒體",
+     "cap": 2000
+    }
+   ],
+   "note": "momo 站內 3%（mo 幣），每期上限 2,000；精選品牌最高 7%。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://roo.cash/blog/online-shopping-creditcard-comparison",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "cathay-shopee",
+   "rev": 1,
+   "bank": "國泰",
+   "name": "蝦皮購物聯名卡",
+   "unit": "點",
+   "pointValue": 1,
+   "pointName": "蝦幣",
+   "base": 0.5,
+   "rules": [
+    {
+     "label": "蝦皮 4%",
+     "rate": 3.5,
+     "keywords": "蝦皮,Shopee"
+    }
+   ],
+   "note": "蝦皮站內天天最高 4%（含條件），99／雙 10／雙 11／雙 12 登錄再加 6%。站外回饋未確認。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://roo.cash/blog/online-shopping-creditcard-comparison",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "dbs-pchome",
+   "rev": 1,
+   "bank": "星展",
+   "name": "PChome Prime 聯名卡",
+   "unit": "點",
+   "pointValue": 1,
+   "pointName": "P幣",
+   "base": 1,
+   "rules": [
+    {
+     "label": "PChome 4%",
+     "rate": 3,
+     "keywords": "PChome,PCHOME"
+    }
+   ],
+   "note": "PChome 24h 站內 4%（聯名點數＋P 幣），週四再加 2%。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://roo.cash/blog/online-shopping-creditcard-comparison",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "dbs-aov",
+   "rev": 1,
+   "bank": "星展",
+   "name": "傳說對決聯名卡",
+   "unit": "點",
+   "pointValue": 1,
+   "pointName": "星展現金積點",
+   "base": 1,
+   "rules": [
+    {
+     "label": "蝦皮淘寶 10%",
+     "rate": 9,
+     "keywords": "蝦皮,Shopee,淘寶,天貓",
+     "cap": 500
+    }
+   ],
+   "note": "蝦皮、淘寶 10%，加碼每月上限 500 點。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://roo.cash/blog/online-shopping-creditcard-comparison",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "tcb-dreamblue",
+   "rev": 1,
+   "bank": "合庫",
+   "name": "夢想藍卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 0.3,
+   "rules": [
+    {
+     "label": "網購 3%",
+     "rate": 2.7,
+     "keywords": "蝦皮,Shopee,momo,PChome,酷澎,Coupang,淘寶,天貓,Yahoo,博客來,樂天,東森,friDay,Amazon,eBay,GOMAJI,iHerb,SHEIN,Pinkoi,Uber Eats,UBER EATS,foodpanda",
+     "cap": 202
+    }
+   ],
+   "note": "網購 3%，每月消費上限 7,500 元；國內一般回饋未確認。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.beurlife.com/2017/12/2018-High-Cash-Rebate-Credit-Card.html",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "chb-mygo",
+   "rev": 1,
+   "bank": "彰銀",
+   "name": "My 購卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 0.3,
+   "rules": [
+    {
+     "label": "網購 2%",
+     "rate": 1.7,
+     "keywords": "蝦皮,Shopee,momo,PChome,酷澎,Coupang,淘寶,天貓,Yahoo,博客來,樂天,東森,friDay,Amazon,eBay,GOMAJI,iHerb,SHEIN,Pinkoi",
+     "cap": 170
+    }
+   ],
+   "note": "網購 2%、假日 4%，每月上限 1 萬元消費；國內一般回饋未確認。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.beurlife.com/2017/12/2018-High-Cash-Rebate-Credit-Card.html",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "hncb-inet",
+   "rev": 1,
+   "bank": "華南",
+   "name": "i 網購卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 0.3,
+   "rules": [
+    {
+     "label": "網購 2%",
+     "rate": 1.7,
+     "keywords": "蝦皮,Shopee,momo,PChome,酷澎,Coupang,淘寶,天貓,Yahoo,博客來,樂天,東森,friDay,Amazon,eBay,GOMAJI,iHerb,SHEIN,Pinkoi",
+     "cap": 170,
+     "min": 300
+    }
+   ],
+   "note": "網購 2%，單筆 300 元以上，帳月上限 1 萬元消費；國內一般回饋未確認。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.beurlife.com/2017/12/2018-High-Cash-Rebate-Credit-Card.html",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "feib-happy",
+   "rev": 1,
+   "bank": "遠東",
+   "name": "快樂卡",
+   "unit": "點",
+   "pointValue": 1,
+   "pointName": "HAPPY GO",
+   "base": 0.5,
+   "rules": [
+    {
+     "label": "指定通路 5%",
+     "rate": 4.5,
+     "keywords": "蝦皮,Shopee,momo,PChome,酷澎,Coupang,淘寶,天貓,Yahoo,博客來,樂天,東森,friDay,Amazon,eBay,GOMAJI,iHerb,SHEIN,Pinkoi,SOGO,遠東百貨,大遠百,新光三越,微風,家樂福,全聯,愛買,UNIQLO,ZARA,屈臣氏,康是美,LINE Pay"
+    }
+   ],
+   "note": "百貨、超市、網購、服飾、藥妝、LINE Pay 最高 5%，需每月登錄、有上限。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.money101.com.tw/blog/20151110-%E5%89%B5%E9%80%A0%E8%B2%A1%E5%AF%8C%E7%9A%845%E7%A8%AE%E6%B3%95%E5%89%87",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "ubot-laidian",
+   "rev": 1,
+   "bank": "聯邦",
+   "name": "賴點卡",
+   "unit": "點",
+   "pointValue": 1,
+   "pointName": "LINE POINTS",
+   "base": 0.5,
+   "rules": [
+    {
+     "label": "海外 3%",
+     "rate": 2.5,
+     "fx": true
+    }
+   ],
+   "note": "國外且外幣 3%（含歐洲實體）；國內一般回饋未確認。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.beurlife.com/2017/12/2018-High-Cash-Rebate-Credit-Card.html",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "ubot-happym",
+   "rev": 1,
+   "bank": "聯邦",
+   "name": "幸福 M 卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 0.5,
+   "rules": [
+    {
+     "label": "海外 3%",
+     "rate": 2.5,
+     "fx": true
+    }
+   ],
+   "note": "國外實體且外幣 3%；歐盟不回饋；國內一般回饋未確認。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.beurlife.com/2017/12/2018-High-Cash-Rebate-Credit-Card.html",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "ubot-jihe",
+   "rev": 1,
+   "bank": "聯邦",
+   "name": "吉鶴卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 1,
+   "rules": [
+    {
+     "label": "日幣消費 2.5%",
+     "rate": 1.5,
+     "fx": "JPY"
+    }
+   ],
+   "note": "日幣消費 2.5% 無上限；日本旅遊祭、日系名店另有登錄加碼。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.bnext.com.tw/article/89718/2026-recommended-credit-card",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "mega-lidou",
+   "rev": 1,
+   "bank": "兆豐",
+   "name": "利多御卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 0.5,
+   "rules": [
+    {
+     "label": "海外 3%",
+     "rate": 2.5,
+     "fx": true
+    }
+   ],
+   "note": "國外或外幣 3%，需兆豐扣繳且當期有國內消費；國內一般回饋未確認。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.beurlife.com/2017/12/2018-High-Cash-Rebate-Credit-Card.html",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "skb-universal",
+   "rev": 1,
+   "bank": "新光",
+   "name": "寰宇卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 0.5,
+   "rules": [
+    {
+     "label": "海外 3%",
+     "rate": 2.5,
+     "fx": true,
+     "cap": 1980
+    }
+   ],
+   "note": "國外或外幣 3%，每月上限 6.6 萬消費；歐盟不回饋；國內一般回饋未確認。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.beurlife.com/2017/12/2018-High-Cash-Rebate-Credit-Card.html",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "hncb-lohas",
+   "rev": 1,
+   "bank": "華南",
+   "name": "享利樂活卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 0.5,
+   "rules": [
+    {
+     "label": "海外 2.5%",
+     "rate": 2,
+     "fx": true
+    }
+   ],
+   "note": "國外或外幣 2.5%；國內一般回饋未確認。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.beurlife.com/2017/12/2018-High-Cash-Rebate-Credit-Card.html",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "fubon-j",
+   "rev": 1,
+   "bank": "富邦",
+   "name": "J 卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 1,
+   "rules": [
+    {
+     "label": "日韓泰 3%",
+     "rate": 2,
+     "fx": "JPY|KRW|THB"
+    },
+    {
+     "label": "日本交通卡 10%",
+     "rate": 9,
+     "keywords": "SUICA,PASMO,ICOCA",
+     "cap": 300
+    }
+   ],
+   "note": "日韓泰旅遊最高 6%（需登錄），先以 3% 計；日本交通卡儲值最高 10%。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.bnext.com.tw/article/89718/2026-recommended-credit-card",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "esun-kumamon",
+   "rev": 1,
+   "bank": "玉山",
+   "name": "熊本熊卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 0.5,
+   "rules": [
+    {
+     "label": "日本 2.5%",
+     "rate": 2,
+     "fx": "JPY"
+    }
+   ],
+   "note": "日本一般 2.5% 無上限，日本指定通路最高 8.5%、PayPay 最高 5%；國內一般回饋未確認。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.money101.com.tw/blog/20151110-%E5%89%B5%E9%80%A0%E8%B2%A1%E5%AF%8C%E7%9A%845%E7%A8%AE%E6%B3%95%E5%89%87",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "feib-lejia",
+   "rev": 1,
+   "bank": "遠東",
+   "name": "樂家+卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 0.5,
+   "rules": [
+    {
+     "label": "日韓新泰美 3.5%",
+     "rate": 3,
+     "fx": "JPY|KRW|SGD|THB|USD"
+    },
+    {
+     "label": "海外 2.5%",
+     "rate": 2,
+     "fx": true
+    }
+   ],
+   "note": "海外 2.5%，日韓新泰美 3.5%（有門檻）；國內一般回饋未確認。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.money101.com.tw/blog/20151110-%E5%89%B5%E9%80%A0%E8%B2%A1%E5%AF%8C%E7%9A%845%E7%A8%AE%E6%B3%95%E5%89%87",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "firstbank-ipass",
+   "rev": 1,
+   "bank": "第一",
+   "name": "一卡通聯名卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 0.5,
+   "rules": [
+    {
+     "label": "日韓 3.5%",
+     "rate": 3,
+     "fx": "JPY|KRW",
+     "to": "2026-12-31"
+    }
+   ],
+   "note": "日韓當地幣別實體消費 3.5%（7/1–12/31）；國內一般回饋未確認。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.money101.com.tw/blog/20151110-%E5%89%B5%E9%80%A0%E8%B2%A1%E5%AF%8C%E7%9A%845%E7%A8%AE%E6%B3%95%E5%89%87",
+   "updated": "2026-11-01",
+   "compiled": true
   }
  ],
  "campaigns": [
