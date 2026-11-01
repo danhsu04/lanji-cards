@@ -1776,7 +1776,7 @@
   },
   {
    "key": "esun-doctor-infinite",
-   "rev": 1,
+   "rev": 2,
    "bank": "玉山",
    "name": "醫師尊榮無限卡",
    "unit": "元",
@@ -1787,11 +1787,140 @@
    "note": "國內外一般 1% 現金回饋無上限，直接折抵帳單（2026 全年）。以下要每季登錄才有、先不計：國外實體每季滿 10 萬再 +1%（每季上限 5,000 元）；國內每季滿 10 萬，華航／長榮／星宇／國泰／阿聯酋／高鐵 +2% e point（每季上限 2,000 點）。醫師節活動 10/20–12/20 國內滿 20 萬 +0.8%、滿 50 萬 +1%（要登錄＋玉山帳戶扣繳）。壽險保費登錄再 +0.1%。 ",
    "src": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/world-card/doctor-infinite-card",
    "updated": "2026-11-01",
-   "compiled": false
+   "compiled": false,
+   "perks": [
+    {
+     "key": "pickup",
+     "name": "機場接送",
+     "kind": "pickup",
+     "src": "https://www.cardu.com.tw/card/card_info.php?cc_pk=3477&cc_group_id=1335",
+     "note": "單程接或送一趟，要在預約前達標。2026/12/31 前。",
+     "tiers": [
+      {
+       "name": "一般卡友",
+       "limit": 2,
+       "any": [
+        {
+         "min": 30000,
+         "days": 60,
+         "travel": true
+        },
+        {
+         "min": 200000,
+         "days": 180
+        }
+       ]
+      },
+      {
+       "name": "登峰／菁英",
+       "limit": 4,
+       "any": [
+        {
+         "min": 30000,
+         "days": 60,
+         "travel": true
+        },
+        {
+         "min": 200000,
+         "days": 180
+        }
+       ]
+      },
+      {
+       "name": "私銀／極致",
+       "any": [
+        {
+         "min": 1,
+         "stmt": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "lounge",
+     "name": "機場貴賓室（龍騰）",
+     "kind": "lounge",
+     "src": "https://www.esunbank.com/zh-tw/personal/credit-card/benefit/vip-room",
+     "note": "每次出國 2 次，每天限 1 次，正、附卡分開算。機票或團費（80% 以上）要用同一張無限卡刷。",
+     "tiers": [
+      {
+       "name": "一般卡友",
+       "limit": 8,
+       "any": [
+        {
+         "min": 10000,
+         "stmt": 1,
+         "travel": true,
+         "travelDays": 180
+        }
+       ]
+      },
+      {
+       "name": "登峰／菁英",
+       "limit": 8,
+       "any": [
+        {
+         "min": 5000,
+         "stmt": 1,
+         "travel": true,
+         "travelDays": 180
+        }
+       ]
+      },
+      {
+       "name": "私銀／極致",
+       "limit": 10,
+       "any": [
+        {
+         "min": 1,
+         "stmt": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "parking",
+     "name": "停車",
+     "kind": "parking",
+     "src": "https://www.cardu.com.tw/card/card_info.php?cc_pk=3477&cc_group_id=1335",
+     "note": "指定停車場每人每天 1 次，看前月新增一般消費。2026 全年。",
+     "tiers": [
+      {
+       "name": "一般卡友",
+       "any": [
+        {
+         "min": 20000,
+         "stmt": 1
+        }
+       ]
+      },
+      {
+       "name": "登峰／菁英",
+       "any": [
+        {
+         "min": 5000,
+         "stmt": 1
+        }
+       ]
+      },
+      {
+       "name": "私銀／極致",
+       "any": [
+        {
+         "min": 1,
+         "stmt": 1
+        }
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "key": "ctbc-linepay-infinite",
-   "rev": 1,
+   "rev": 2,
    "bank": "中信",
    "name": "LINE Pay 鼎極卡",
    "unit": "點",
@@ -1808,7 +1937,30 @@
    "note": "官網查不到鼎極卡的回饋細節，先比照一般 LINE Pay 卡（國內 1%、國外實體 2.8%）。Visa 無限與 JCB 極致都用這張設定。未確認。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
    "src": "https://roo.cash/blog/online-shopping-creditcard-comparison",
    "updated": "2026-11-01",
-   "compiled": true
+   "compiled": true,
+   "perks": [
+    {
+     "key": "pickup",
+     "name": "機場接送",
+     "kind": "pickup",
+     "scope": "bank",
+     "exclude": "學費,罰鍰,罰款,規費,稅,水費,電費,瓦斯",
+     "src": "https://www.cashfeel.com.tw/article/%E6%A9%9F%E5%A0%B4%E6%8E%A5%E9%80%81-%E4%BF%A1%E7%94%A8%E5%8D%A1-%E6%8E%A8%E8%96%A6",
+     "note": "全戶（你名下所有中信卡合計）前 12 期帳單新增消費滿 60 萬，每年 2 趟單程。華航鼎尊、ANA 等聯名卡的消費另外算。2026 起學費、罰鍰、規費、水電瓦斯不算。整理自比較網站，請到中信官網核對。",
+     "tiers": [
+      {
+       "name": "鼎極卡",
+       "limit": 2,
+       "any": [
+        {
+         "min": 600000,
+         "stmt": 12
+        }
+       ]
+      }
+     ]
+    }
+   ]
   }
  ],
  "campaigns": [
