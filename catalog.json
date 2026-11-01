@@ -183,7 +183,8 @@
   },
   {
    "key": "richart",
-   "rev": 2,
+   "rev": 3,
+   "planGroup": "taishin",
    "pointName": "台新 Point",
    "bank": "台新",
    "name": "Richart 卡",
@@ -333,6 +334,374 @@
      "to": "2026-12-31",
      "keywords": "Tesla,特斯拉,Gogoro,鮮乳坊,茶籽堂,nextdoorfresh,直接跟農夫買,玩轉學校,甘樂文創,禾乃川,馳綠,艾瑪絲,覺亞,EVOPURE,優織隆,綠藤,藍鵲茶,銀色大門,多扶假期,淨毒五郎",
      "exclude": "街口,LINE Pay,全支付"
+    }
+   ]
+  },
+  {
+   "key": "taishin-gogo",
+   "rev": 1,
+   "planGroup": "taishin",
+   "pointName": "台新 Point",
+   "bank": "台新",
+   "name": "@GoGo 卡",
+   "unit": "點",
+   "pointValue": 1,
+   "base": 0.3,
+   "switch": "daily",
+   "note": "2025/9/1 起改用 Richart 切換刷方案（新卡面會叫台新Richart卡）。每日限切換一次（所有台新卡合併計算）；當天 23:59 系統留存的方案適用當天所有交易，依商家拋送的消費日判定。3.3% 需 LEVEL 2（台新帳戶自動扣繳）。活動期間 2026/7/1–2027/12/31。",
+   "src": "https://www.taishinbank.com.tw/TSB/personal/common/important-notice/TSBankImportantNotice-001346/",
+   "updated": "2026-11-01",
+   "plans": [
+    {
+     "id": "pay",
+     "name": "Pay著刷",
+     "rules": [
+      {
+       "label": "台新Pay 3.8%",
+       "rate": 3.5,
+       "keywords": "台新Pay,TaishinPay"
+      },
+      {
+       "label": "LINE Pay／全盈+Pay 2.3%",
+       "rate": 2,
+       "keywords": "LINE Pay,全盈"
+      }
+     ]
+    },
+    {
+     "id": "daily",
+     "name": "天天刷",
+     "rules": [
+      {
+       "label": "天天刷 3.3%",
+       "rate": 3,
+       "keywords": "全家,萬家福,大買家,高鐵,台鐵,UBER,中油,台塑石油,加油,充電,康是美,屈臣氏,藥局,大樹,杏一",
+       "exclude": "UBER EATS,UBEREATS"
+      }
+     ]
+    },
+    {
+     "id": "big",
+     "name": "大筆刷",
+     "rules": [
+      {
+       "label": "大筆刷 3.3%",
+       "rate": 3,
+       "keywords": "百貨,新光三越,SOGO,遠東,微風,Outlet,IKEA,特力屋,HOLA,UNIQLO,ZARA,GU"
+      }
+     ]
+    },
+    {
+     "id": "food",
+     "name": "好饗刷",
+     "rules": [
+      {
+       "label": "好饗刷 3.3%",
+       "rate": 3,
+       "category": "餐飲",
+       "keywords": "UBER EATS,UBEREATS,foodpanda,KTV,錢櫃,好樂迪,威秀,國賓,飯店,拓元,KKTIX"
+      }
+     ]
+    },
+    {
+     "id": "digital",
+     "name": "數趣刷",
+     "rules": [
+      {
+       "label": "數趣刷 3.3%",
+       "rate": 3,
+       "category": "訂閱",
+       "keywords": "蝦皮,momo,PChome,Coupang,酷澎,NETFLIX,SPOTIFY,YOUTUBE,ChatGPT,OpenAI,Claude,Steam,Hahow"
+      }
+     ]
+    },
+    {
+     "id": "travel",
+     "name": "玩旅刷",
+     "rules": [
+      {
+       "label": "玩旅刷 3.3%",
+       "rate": 3,
+       "fx": true,
+       "keywords": "航空,Agoda,Booking,Klook,KKday,Trip.com,Expedia,Hotels.com,旅行社,雄獅,易遊網"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "taishin-flygo",
+   "rev": 1,
+   "planGroup": "taishin",
+   "pointName": "台新 Point",
+   "bank": "台新",
+   "name": "FlyGo 卡",
+   "unit": "點",
+   "pointValue": 1,
+   "base": 0.3,
+   "switch": "daily",
+   "note": "2025/9/1 起改用 Richart 切換刷方案（新卡面會叫台新Richart卡）。每日限切換一次（所有台新卡合併計算）；當天 23:59 系統留存的方案適用當天所有交易，依商家拋送的消費日判定。3.3% 需 LEVEL 2（台新帳戶自動扣繳）。活動期間 2026/7/1–2027/12/31。",
+   "src": "https://www.taishinbank.com.tw/TSB/personal/common/important-notice/TSBankImportantNotice-001346/",
+   "updated": "2026-11-01",
+   "plans": [
+    {
+     "id": "pay",
+     "name": "Pay著刷",
+     "rules": [
+      {
+       "label": "台新Pay 3.8%",
+       "rate": 3.5,
+       "keywords": "台新Pay,TaishinPay"
+      },
+      {
+       "label": "LINE Pay／全盈+Pay 2.3%",
+       "rate": 2,
+       "keywords": "LINE Pay,全盈"
+      }
+     ]
+    },
+    {
+     "id": "daily",
+     "name": "天天刷",
+     "rules": [
+      {
+       "label": "天天刷 3.3%",
+       "rate": 3,
+       "keywords": "全家,萬家福,大買家,高鐵,台鐵,UBER,中油,台塑石油,加油,充電,康是美,屈臣氏,藥局,大樹,杏一",
+       "exclude": "UBER EATS,UBEREATS"
+      }
+     ]
+    },
+    {
+     "id": "big",
+     "name": "大筆刷",
+     "rules": [
+      {
+       "label": "大筆刷 3.3%",
+       "rate": 3,
+       "keywords": "百貨,新光三越,SOGO,遠東,微風,Outlet,IKEA,特力屋,HOLA,UNIQLO,ZARA,GU"
+      }
+     ]
+    },
+    {
+     "id": "food",
+     "name": "好饗刷",
+     "rules": [
+      {
+       "label": "好饗刷 3.3%",
+       "rate": 3,
+       "category": "餐飲",
+       "keywords": "UBER EATS,UBEREATS,foodpanda,KTV,錢櫃,好樂迪,威秀,國賓,飯店,拓元,KKTIX"
+      }
+     ]
+    },
+    {
+     "id": "digital",
+     "name": "數趣刷",
+     "rules": [
+      {
+       "label": "數趣刷 3.3%",
+       "rate": 3,
+       "category": "訂閱",
+       "keywords": "蝦皮,momo,PChome,Coupang,酷澎,NETFLIX,SPOTIFY,YOUTUBE,ChatGPT,OpenAI,Claude,Steam,Hahow"
+      }
+     ]
+    },
+    {
+     "id": "travel",
+     "name": "玩旅刷",
+     "rules": [
+      {
+       "label": "玩旅刷 3.3%",
+       "rate": 3,
+       "fx": true,
+       "keywords": "航空,Agoda,Booking,Klook,KKday,Trip.com,Expedia,Hotels.com,旅行社,雄獅,易遊網"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "taishin-sun",
+   "rev": 1,
+   "planGroup": "taishin",
+   "pointName": "台新 Point",
+   "bank": "台新",
+   "name": "太陽卡",
+   "unit": "點",
+   "pointValue": 1,
+   "base": 0.3,
+   "switch": "daily",
+   "note": "這裡是已加入「切換刷」的太陽卡。如果你的卡還是「指定套餐／自由選」，回饋是 0.2%～1.2%（帳單指定類別滿 3 萬才 1.2%），不適用這組設定。每日限切換一次（所有台新卡合併計算）；當天 23:59 系統留存的方案適用當天所有交易，依商家拋送的消費日判定。3.3% 需 LEVEL 2（台新帳戶自動扣繳）。活動期間 2026/7/1–2027/12/31。",
+   "src": "https://www.taishinbank.com.tw/TSB/personal/common/important-notice/TSBankImportantNotice-001346/",
+   "updated": "2026-11-01",
+   "plans": [
+    {
+     "id": "pay",
+     "name": "Pay著刷",
+     "rules": [
+      {
+       "label": "台新Pay 3.8%",
+       "rate": 3.5,
+       "keywords": "台新Pay,TaishinPay"
+      },
+      {
+       "label": "LINE Pay／全盈+Pay 2.3%",
+       "rate": 2,
+       "keywords": "LINE Pay,全盈"
+      }
+     ]
+    },
+    {
+     "id": "daily",
+     "name": "天天刷",
+     "rules": [
+      {
+       "label": "天天刷 3.3%",
+       "rate": 3,
+       "keywords": "全家,萬家福,大買家,高鐵,台鐵,UBER,中油,台塑石油,加油,充電,康是美,屈臣氏,藥局,大樹,杏一",
+       "exclude": "UBER EATS,UBEREATS"
+      }
+     ]
+    },
+    {
+     "id": "big",
+     "name": "大筆刷",
+     "rules": [
+      {
+       "label": "大筆刷 3.3%",
+       "rate": 3,
+       "keywords": "百貨,新光三越,SOGO,遠東,微風,Outlet,IKEA,特力屋,HOLA,UNIQLO,ZARA,GU"
+      }
+     ]
+    },
+    {
+     "id": "food",
+     "name": "好饗刷",
+     "rules": [
+      {
+       "label": "好饗刷 3.3%",
+       "rate": 3,
+       "category": "餐飲",
+       "keywords": "UBER EATS,UBEREATS,foodpanda,KTV,錢櫃,好樂迪,威秀,國賓,飯店,拓元,KKTIX"
+      }
+     ]
+    },
+    {
+     "id": "digital",
+     "name": "數趣刷",
+     "rules": [
+      {
+       "label": "數趣刷 3.3%",
+       "rate": 3,
+       "category": "訂閱",
+       "keywords": "蝦皮,momo,PChome,Coupang,酷澎,NETFLIX,SPOTIFY,YOUTUBE,ChatGPT,OpenAI,Claude,Steam,Hahow"
+      }
+     ]
+    },
+    {
+     "id": "travel",
+     "name": "玩旅刷",
+     "rules": [
+      {
+       "label": "玩旅刷 3.3%",
+       "rate": 3,
+       "fx": true,
+       "keywords": "航空,Agoda,Booking,Klook,KKday,Trip.com,Expedia,Hotels.com,旅行社,雄獅,易遊網"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "taishin-rose",
+   "rev": 1,
+   "planGroup": "taishin",
+   "pointName": "台新 Point",
+   "bank": "台新",
+   "name": "玫瑰卡",
+   "unit": "點",
+   "pointValue": 1,
+   "base": 0.3,
+   "switch": "daily",
+   "note": "這裡是已加入「切換刷」的玫瑰卡。如果你的卡還是「指定套餐／自由選」，回饋是 0.2%～1.2%（帳單指定類別滿 3 萬才 1.2%），不適用這組設定。每日限切換一次（所有台新卡合併計算）；當天 23:59 系統留存的方案適用當天所有交易，依商家拋送的消費日判定。3.3% 需 LEVEL 2（台新帳戶自動扣繳）。活動期間 2026/7/1–2027/12/31。",
+   "src": "https://www.taishinbank.com.tw/TSB/personal/common/important-notice/TSBankImportantNotice-001346/",
+   "updated": "2026-11-01",
+   "plans": [
+    {
+     "id": "pay",
+     "name": "Pay著刷",
+     "rules": [
+      {
+       "label": "台新Pay 3.8%",
+       "rate": 3.5,
+       "keywords": "台新Pay,TaishinPay"
+      },
+      {
+       "label": "LINE Pay／全盈+Pay 2.3%",
+       "rate": 2,
+       "keywords": "LINE Pay,全盈"
+      }
+     ]
+    },
+    {
+     "id": "daily",
+     "name": "天天刷",
+     "rules": [
+      {
+       "label": "天天刷 3.3%",
+       "rate": 3,
+       "keywords": "全家,萬家福,大買家,高鐵,台鐵,UBER,中油,台塑石油,加油,充電,康是美,屈臣氏,藥局,大樹,杏一",
+       "exclude": "UBER EATS,UBEREATS"
+      }
+     ]
+    },
+    {
+     "id": "big",
+     "name": "大筆刷",
+     "rules": [
+      {
+       "label": "大筆刷 3.3%",
+       "rate": 3,
+       "keywords": "百貨,新光三越,SOGO,遠東,微風,Outlet,IKEA,特力屋,HOLA,UNIQLO,ZARA,GU"
+      }
+     ]
+    },
+    {
+     "id": "food",
+     "name": "好饗刷",
+     "rules": [
+      {
+       "label": "好饗刷 3.3%",
+       "rate": 3,
+       "category": "餐飲",
+       "keywords": "UBER EATS,UBEREATS,foodpanda,KTV,錢櫃,好樂迪,威秀,國賓,飯店,拓元,KKTIX"
+      }
+     ]
+    },
+    {
+     "id": "digital",
+     "name": "數趣刷",
+     "rules": [
+      {
+       "label": "數趣刷 3.3%",
+       "rate": 3,
+       "category": "訂閱",
+       "keywords": "蝦皮,momo,PChome,Coupang,酷澎,NETFLIX,SPOTIFY,YOUTUBE,ChatGPT,OpenAI,Claude,Steam,Hahow"
+      }
+     ]
+    },
+    {
+     "id": "travel",
+     "name": "玩旅刷",
+     "rules": [
+      {
+       "label": "玩旅刷 3.3%",
+       "rate": 3,
+       "fx": true,
+       "keywords": "航空,Agoda,Booking,Klook,KKday,Trip.com,Expedia,Hotels.com,旅行社,雄獅,易遊網"
+      }
+     ]
     }
    ]
   },
@@ -1338,6 +1707,106 @@
    ],
    "note": "國內 25 元 1 哩。海外與長榮機票加碼 50%（約 16.7 元 1 哩）。 1 哩約值 NT$0.4 是估計，可在卡片設定裡改。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
    "src": "https://roo.cash/blog/mileage-credit-card",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "fubon-costco",
+   "rev": 1,
+   "bank": "富邦",
+   "name": "Costco 聯名卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "好多金",
+   "base": 1,
+   "rules": [
+    {
+     "label": "Costco 線上 3%",
+     "rate": 2,
+     "keywords": "COSTCO ONLINE,Costco線上,好市多線上,costco.com.tw"
+    },
+    {
+     "label": "Costco 實體 2%",
+     "rate": 1,
+     "keywords": "Costco,COSTCO,好市多",
+     "exclude": "COSTCO ONLINE,Costco線上,好市多線上"
+    }
+   ],
+   "note": "好多金 1 元抵 1 元，只能折抵 Costco 會費或店內消費。Costco 實體 2%、線上 3%，無上限（至 2027/12/31）。國外實體最高 5% 要每月登錄（加碼上限 600 元），先不計。分期不回饋。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://roo.cash/blog/online-shopping-creditcard-comparison",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "sinopac-sport",
+   "rev": 1,
+   "bank": "永豐",
+   "name": "SPORT 卡",
+   "unit": "點",
+   "pointValue": 1,
+   "pointName": "豐點",
+   "base": 1,
+   "rules": [
+    {
+     "label": "行動支付／運動／醫藥／電競 4%",
+     "rate": 3,
+     "keywords": "Apple Pay,Google Pay,Google 錢包,Google Wallet,Samsung Pay,Samsung Wallet,Garmin Pay,健身,World Gym,健身工廠,Anytime Fitness,迪卡儂,DECATHLON,運動中心,藥局,大樹,杏一,丁丁,診所,醫院,Steam,PlayStation,Nintendo,任天堂",
+     "cap": 300
+    }
+   ],
+   "note": "一般 1% 要電子帳單，否則 0.3%。行動支付（Apple／Google／Samsung／Garmin Pay）、運動健身、醫藥保健、電競加碼 3%，要當月運動 1 萬大卡＋永豐帳戶扣繳，加碼每月上限 300 點（約 1 萬元）。運動達標另全通路 +1%（上限 50 點），先不計。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.beurlife.com/2017/12/2018-High-Cash-Rebate-Credit-Card.html",
+   "updated": "2026-11-01",
+   "compiled": true
+  },
+  {
+   "key": "sc-linebank-world",
+   "rev": 1,
+   "bank": "渣打",
+   "name": "LINE Bank 聯名卡（世界卡）",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 1,
+   "rules": [],
+   "note": "國內外一般 1% 現金回饋無上限（2026/8/1–2027/7/31），保費也算，學費不算；選 3 期零利率就沒有回饋。回饋要到 App 手動兌換，每次 200 元起。本卡 2026/10/1 起停止新申辦，舊卡友權益不變。 ",
+   "src": "https://www.sc.com/tw/credit-cards/linebank-coband-card/",
+   "updated": "2026-11-01",
+   "compiled": false
+  },
+  {
+   "key": "esun-doctor-infinite",
+   "rev": 1,
+   "bank": "玉山",
+   "name": "醫師尊榮無限卡",
+   "unit": "元",
+   "pointValue": 1,
+   "pointName": "現金回饋",
+   "base": 1,
+   "rules": [],
+   "note": "國內外一般 1% 現金回饋無上限，直接折抵帳單（2026 全年）。以下要每季登錄才有、先不計：國外實體每季滿 10 萬再 +1%（每季上限 5,000 元）；國內每季滿 10 萬，華航／長榮／星宇／國泰／阿聯酋／高鐵 +2% e point（每季上限 2,000 點）。醫師節活動 10/20–12/20 國內滿 20 萬 +0.8%、滿 50 萬 +1%（要登錄＋玉山帳戶扣繳）。壽險保費登錄再 +0.1%。 ",
+   "src": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/world-card/doctor-infinite-card",
+   "updated": "2026-11-01",
+   "compiled": false
+  },
+  {
+   "key": "ctbc-linepay-infinite",
+   "rev": 1,
+   "bank": "中信",
+   "name": "LINE Pay 鼎極卡",
+   "unit": "點",
+   "pointValue": 1,
+   "pointName": "LINE POINTS",
+   "base": 1,
+   "rules": [
+    {
+     "label": "海外 2.8%",
+     "rate": 1.8,
+     "fx": true
+    }
+   ],
+   "note": "官網查不到鼎極卡的回饋細節，先比照一般 LINE Pay 卡（國內 1%、國外實體 2.8%）。Visa 無限與 JCB 極致都用這張設定。未確認。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://roo.cash/blog/online-shopping-creditcard-comparison",
    "updated": "2026-11-01",
    "compiled": true
   }
