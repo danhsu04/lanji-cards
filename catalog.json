@@ -1,5 +1,5 @@
 {
- "version": "2026-11-01",
+ "version": "2026-11-02",
  "presets": [
   {
    "key": "cube",
@@ -125,7 +125,7 @@
   },
   {
    "key": "unicard",
-   "rev": 2,
+   "rev": 3,
    "pointName": "玉山 e point",
    "bank": "玉山",
    "name": "Unicard",
@@ -133,9 +133,10 @@
    "pointValue": 1,
    "base": 1,
    "switch": "monthly",
-   "note": "回饋以「當月最後一天」設定的方案計算整個月。一般 1% 需玉山帳戶自動扣繳＋電子帳單，否則 0.3%。Up選每月 149 點，每月 1 日自動續訂。超商、全聯、繳費通常不回饋。",
+   "note": "回饋以「當月最後一天」的方案計算整個月；每月可在玉山Wallet切換 30 次（含改任意選的店家）。一般 1% 需玉山帳戶自動扣繳＋電子帳單，否則 0.3%。UP選每月 149 點（上月刷 3 萬且平均資產 30 萬免費），升級後當月不能切回。帳單上要顯示該特店名稱；行動支付以外的通路多半要刷實體卡（含 Apple／Google／Samsung Pay）。國外實體限指定國家、網購不算。超商、稅費不回饋。活動期間 2026/7/1–12/31。",
    "src": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard",
-   "updated": "2026-11-01",
+   "updated": "2026-11-02",
+   "compiled": false,
    "plans": [
     {
      "id": "simple",
@@ -145,37 +146,541 @@
        "label": "百大特店 +2%",
        "rate": 2,
        "cap": 1000,
-       "fx": true,
-       "keywords": "LINE Pay,街口,悠遊付,全盈,全支付,玉山Wallet,支付寶,中油,台鐵,高鐵,UBER,台塑石油,新光三越,遠東,SOGO,微風,台北101,誠品,UBER EATS,foodpanda,王品,中華航空,華航,長榮,日本航空,Trip.com,Klook,KKday,Apple,小米,拓元,威秀,國賓,錢櫃,家樂福,屈臣氏,康是美,UNIQLO,杏一,momo,蝦皮,淘寶,Coupang,酷澎,特斯拉",
-       "exclude": "7-ELEVEN,7ELEVEN,全家,萊爾富,全聯"
+       "fx": "JPY|KRW|THB|VND|SGD|MYR|PHP|CNY|HKD|MOP|USD|CAD|GBP|EUR|AUD|NZD",
+       "keywords": "玉山Wallet,LINE Pay,全支付,PX Pay,PXPay,街口,JKO,悠遊付,Easy Wallet,全盈,iPASS MONEY,一卡通,icash Pay,icashpay,支付寶,ALIPAY,momo,富邦媒,蝦皮,Shopee,淘寶,TAOBAO,Coupang,酷澎,新光三越,SKM,SOGO,Garden City,大巨蛋,遠東百貨,遠百,巨城,Big City,漢神百貨,漢神洲際,微風,BREEZE,台北101,TAIPEI 101,華泰名品城,GLORIA OUTLETS,三井OUTLET,MITSUI OUTLET,誠品,eslite,秀泰,LaLaport,統一時代,DREAM PLAZA,昇恆昌,EVER RICH,環球購物中心,Global Mall,萬家福,樂家康,屈臣氏,Watsons,康是美,COSMED,特力屋,HOLA,hoi好好,UNIQLO,NET服飾,NET台灣,杏一,卡多摩,UBER EATS,UBEREATS,foodpanda,王品,中油,CPC,台塑石油,台亞,55688,台灣大車隊,台鐵,臺鐵,高鐵,THSR,UBER,中華航空,華航,CHINA AIRLINES,長榮航空,EVA AIR,日本航空,JAPAN AIRLINES,虎航,TIGERAIR,樂桃,PEACH,酷航,SCOOT,Trip.com,攜程,Booking.com,Hotels.com,Expedia,KKday,Klook,雄獅,可樂旅遊,東南旅,Agoda,五福旅,加利利,找到了旅行社,喜鴻,鳳凰旅,Apple Store,APPLE直營,小米,Xiaomi,全國電子,燦坤,拓元,tixCraft,威秀,VIESHOW,國賓影城,新光影城,錢櫃,愛心捐款,特斯拉,TESLA",
+       "exclude": "7-ELEVEN,7ELEVEN,全家,萊爾富,OK超商,全聯,稅"
       }
      ]
     },
     {
      "id": "pick",
      "name": "任意選",
-     "rules": [
+     "pickN": 8,
+     "pickRule": {
+      "rate": 2.5,
+      "cap": 1000,
+      "exclude": "7-ELEVEN,7ELEVEN,全家,萊爾富,OK超商,全聯,稅"
+     },
+     "pickDefault": [
+      "LINE Pay",
+      "街口支付",
+      "全支付",
+      "momo購物網",
+      "蝦皮購物",
+      "Uber Eats",
+      "foodpanda",
+      "台灣中油"
+     ],
+     "pickFrom": [
       {
-       "label": "自選 8 家 +2.5%",
-       "rate": 2.5,
-       "cap": 1000,
-       "keywords": "LINE Pay,街口,蝦皮,momo,UBER EATS,foodpanda,家樂福,中油",
-       "exclude": "7-ELEVEN,7ELEVEN,全家,萊爾富,全聯"
+       "g": "行動支付",
+       "name": "玉山Wallet電子支付",
+       "kw": "玉山Wallet"
+      },
+      {
+       "g": "行動支付",
+       "name": "LINE Pay",
+       "kw": "LINE Pay"
+      },
+      {
+       "g": "行動支付",
+       "name": "全支付",
+       "kw": "全支付,PX Pay,PXPay"
+      },
+      {
+       "g": "行動支付",
+       "name": "街口支付",
+       "kw": "街口,JKO"
+      },
+      {
+       "g": "行動支付",
+       "name": "悠遊付",
+       "kw": "悠遊付,Easy Wallet"
+      },
+      {
+       "g": "行動支付",
+       "name": "全盈+PAY",
+       "kw": "全盈"
+      },
+      {
+       "g": "行動支付",
+       "name": "iPASS MONEY",
+       "kw": "iPASS MONEY,一卡通"
+      },
+      {
+       "g": "行動支付",
+       "name": "icash Pay",
+       "kw": "icash Pay,icashpay"
+      },
+      {
+       "g": "行動支付",
+       "name": "支付寶",
+       "kw": "支付寶,ALIPAY"
+      },
+      {
+       "g": "電商平台",
+       "name": "momo購物網",
+       "kw": "momo,富邦媒"
+      },
+      {
+       "g": "電商平台",
+       "name": "蝦皮購物",
+       "kw": "蝦皮,Shopee"
+      },
+      {
+       "g": "電商平台",
+       "name": "淘寶網",
+       "kw": "淘寶,TAOBAO"
+      },
+      {
+       "g": "電商平台",
+       "name": "Coupang酷澎",
+       "kw": "Coupang,酷澎"
+      },
+      {
+       "g": "國內百貨",
+       "name": "新光三越",
+       "kw": "新光三越,SKM"
+      },
+      {
+       "g": "國內百貨",
+       "name": "遠東SOGO",
+       "kw": "SOGO"
+      },
+      {
+       "g": "國內百貨",
+       "name": "遠東Garden City",
+       "kw": "Garden City,大巨蛋"
+      },
+      {
+       "g": "國內百貨",
+       "name": "遠東百貨",
+       "kw": "遠東百貨,遠百"
+      },
+      {
+       "g": "國內百貨",
+       "name": "Big City遠東巨城",
+       "kw": "巨城,Big City"
+      },
+      {
+       "g": "國內百貨",
+       "name": "漢神百貨",
+       "kw": "漢神百貨"
+      },
+      {
+       "g": "國內百貨",
+       "name": "台中漢神洲際",
+       "kw": "漢神洲際"
+      },
+      {
+       "g": "國內百貨",
+       "name": "微風",
+       "kw": "微風,BREEZE"
+      },
+      {
+       "g": "國內百貨",
+       "name": "台北101",
+       "kw": "台北101,TAIPEI 101"
+      },
+      {
+       "g": "國內百貨",
+       "name": "華泰名品城",
+       "kw": "華泰名品城,GLORIA OUTLETS"
+      },
+      {
+       "g": "國內百貨",
+       "name": "三井OUTLET",
+       "kw": "三井OUTLET,MITSUI OUTLET"
+      },
+      {
+       "g": "國內百貨",
+       "name": "誠品生活",
+       "kw": "誠品,eslite"
+      },
+      {
+       "g": "國內百貨",
+       "name": "秀泰生活",
+       "kw": "秀泰"
+      },
+      {
+       "g": "國內百貨",
+       "name": "LaLaport",
+       "kw": "LaLaport"
+      },
+      {
+       "g": "國內百貨",
+       "name": "統一時代百貨",
+       "kw": "統一時代,DREAM PLAZA"
+      },
+      {
+       "g": "國內百貨",
+       "name": "昇恆昌",
+       "kw": "昇恆昌,EVER RICH"
+      },
+      {
+       "g": "國內百貨",
+       "name": "環球購物中心",
+       "kw": "環球購物中心,Global Mall"
+      },
+      {
+       "g": "生活採買",
+       "name": "萬家福/樂家康",
+       "kw": "萬家福,樂家康"
+      },
+      {
+       "g": "生活採買",
+       "name": "屈臣氏",
+       "kw": "屈臣氏,Watsons"
+      },
+      {
+       "g": "生活採買",
+       "name": "康是美",
+       "kw": "康是美,COSMED"
+      },
+      {
+       "g": "生活採買",
+       "name": "特力屋",
+       "kw": "特力屋"
+      },
+      {
+       "g": "生活採買",
+       "name": "HOLA",
+       "kw": "HOLA"
+      },
+      {
+       "g": "生活採買",
+       "name": "hoi好好生活",
+       "kw": "hoi好好"
+      },
+      {
+       "g": "生活採買",
+       "name": "UNIQLO",
+       "kw": "UNIQLO"
+      },
+      {
+       "g": "生活採買",
+       "name": "NET",
+       "kw": "NET服飾,NET台灣"
+      },
+      {
+       "g": "生活採買",
+       "name": "杏一藥局",
+       "kw": "杏一"
+      },
+      {
+       "g": "生活採買",
+       "name": "卡多摩",
+       "kw": "卡多摩"
+      },
+      {
+       "g": "餐飲美食",
+       "name": "Uber Eats",
+       "kw": "UBER EATS,UBEREATS"
+      },
+      {
+       "g": "餐飲美食",
+       "name": "foodpanda",
+       "kw": "foodpanda"
+      },
+      {
+       "g": "餐飲美食",
+       "name": "王品瘋Pay",
+       "kw": "王品"
+      },
+      {
+       "g": "加油交通",
+       "name": "台灣中油",
+       "kw": "中油,CPC"
+      },
+      {
+       "g": "加油交通",
+       "name": "台塑石油PAY",
+       "kw": "台塑石油,台亞"
+      },
+      {
+       "g": "加油交通",
+       "name": "55688台灣大車隊",
+       "kw": "55688,台灣大車隊"
+      },
+      {
+       "g": "加油交通",
+       "name": "台鐵",
+       "kw": "台鐵,臺鐵"
+      },
+      {
+       "g": "加油交通",
+       "name": "高鐵",
+       "kw": "高鐵,THSR"
+      },
+      {
+       "g": "加油交通",
+       "name": "Uber",
+       "kw": "UBER"
+      },
+      {
+       "g": "航空旅遊",
+       "name": "中華航空",
+       "kw": "中華航空,華航,CHINA AIRLINES"
+      },
+      {
+       "g": "航空旅遊",
+       "name": "長榮航空",
+       "kw": "長榮航空,EVA AIR"
+      },
+      {
+       "g": "航空旅遊",
+       "name": "日本航空",
+       "kw": "日本航空,JAPAN AIRLINES"
+      },
+      {
+       "g": "航空旅遊",
+       "name": "台灣虎航",
+       "kw": "虎航,TIGERAIR"
+      },
+      {
+       "g": "航空旅遊",
+       "name": "樂桃航空",
+       "kw": "樂桃,PEACH"
+      },
+      {
+       "g": "航空旅遊",
+       "name": "酷航",
+       "kw": "酷航,SCOOT"
+      },
+      {
+       "g": "航空旅遊",
+       "name": "Trip.com",
+       "kw": "Trip.com,攜程"
+      },
+      {
+       "g": "航空旅遊",
+       "name": "Booking.com",
+       "kw": "Booking.com"
+      },
+      {
+       "g": "航空旅遊",
+       "name": "Hotels.com",
+       "kw": "Hotels.com"
+      },
+      {
+       "g": "航空旅遊",
+       "name": "Expedia",
+       "kw": "Expedia"
+      },
+      {
+       "g": "航空旅遊",
+       "name": "KKday",
+       "kw": "KKday"
+      },
+      {
+       "g": "航空旅遊",
+       "name": "Klook",
+       "kw": "Klook"
+      },
+      {
+       "g": "航空旅遊",
+       "name": "雄獅旅遊",
+       "kw": "雄獅"
+      },
+      {
+       "g": "航空旅遊",
+       "name": "可樂旅遊",
+       "kw": "可樂旅遊"
+      },
+      {
+       "g": "航空旅遊",
+       "name": "東南旅遊",
+       "kw": "東南旅"
+      },
+      {
+       "g": "航空旅遊",
+       "name": "Agoda",
+       "kw": "Agoda"
+      },
+      {
+       "g": "航空旅遊",
+       "name": "五福旅遊",
+       "kw": "五福旅"
+      },
+      {
+       "g": "航空旅遊",
+       "name": "加利利旅行社",
+       "kw": "加利利"
+      },
+      {
+       "g": "航空旅遊",
+       "name": "找到了旅行社",
+       "kw": "找到了旅行社"
+      },
+      {
+       "g": "航空旅遊",
+       "name": "喜鴻假期",
+       "kw": "喜鴻"
+      },
+      {
+       "g": "航空旅遊",
+       "name": "鳳凰旅遊",
+       "kw": "鳳凰旅"
+      },
+      {
+       "g": "精選商家",
+       "name": "Apple直營店",
+       "kw": "Apple Store,APPLE直營"
+      },
+      {
+       "g": "精選商家",
+       "name": "小米台灣",
+       "kw": "小米,Xiaomi"
+      },
+      {
+       "g": "精選商家",
+       "name": "全國電子",
+       "kw": "全國電子"
+      },
+      {
+       "g": "精選商家",
+       "name": "燦坤",
+       "kw": "燦坤"
+      },
+      {
+       "g": "精選商家",
+       "name": "拓元售票",
+       "kw": "拓元,tixCraft"
+      },
+      {
+       "g": "精選商家",
+       "name": "威秀影城",
+       "kw": "威秀,VIESHOW"
+      },
+      {
+       "g": "精選商家",
+       "name": "國賓影城",
+       "kw": "國賓影城"
+      },
+      {
+       "g": "精選商家",
+       "name": "新光影城",
+       "kw": "新光影城"
+      },
+      {
+       "g": "精選商家",
+       "name": "錢櫃KTV",
+       "kw": "錢櫃"
+      },
+      {
+       "g": "ESG消費",
+       "name": "玉山Wallet愛心捐款",
+       "kw": "愛心捐款"
+      },
+      {
+       "g": "ESG消費",
+       "name": "特斯拉",
+       "kw": "特斯拉,TESLA"
+      },
+      {
+       "g": "國外實體",
+       "name": "國外實體 日本",
+       "fx": "JPY"
+      },
+      {
+       "g": "國外實體",
+       "name": "國外實體 韓國",
+       "fx": "KRW"
+      },
+      {
+       "g": "國外實體",
+       "name": "國外實體 泰國",
+       "fx": "THB"
+      },
+      {
+       "g": "國外實體",
+       "name": "國外實體 越南",
+       "fx": "VND"
+      },
+      {
+       "g": "國外實體",
+       "name": "國外實體 新加坡",
+       "fx": "SGD"
+      },
+      {
+       "g": "國外實體",
+       "name": "國外實體 馬來西亞",
+       "fx": "MYR"
+      },
+      {
+       "g": "國外實體",
+       "name": "國外實體 菲律賓",
+       "fx": "PHP"
+      },
+      {
+       "g": "國外實體",
+       "name": "國外實體 中國",
+       "fx": "CNY"
+      },
+      {
+       "g": "國外實體",
+       "name": "國外實體 香港",
+       "fx": "HKD"
+      },
+      {
+       "g": "國外實體",
+       "name": "國外實體 澳門",
+       "fx": "MOP"
+      },
+      {
+       "g": "國外實體",
+       "name": "國外實體 美國",
+       "fx": "USD"
+      },
+      {
+       "g": "國外實體",
+       "name": "國外實體 加拿大",
+       "fx": "CAD"
+      },
+      {
+       "g": "國外實體",
+       "name": "國外實體 英國",
+       "fx": "GBP"
+      },
+      {
+       "g": "國外實體",
+       "name": "國外實體 法國",
+       "fx": "EUR"
+      },
+      {
+       "g": "國外實體",
+       "name": "國外實體 德國",
+       "fx": "EUR"
+      },
+      {
+       "g": "國外實體",
+       "name": "國外實體 義大利",
+       "fx": "EUR"
+      },
+      {
+       "g": "國外實體",
+       "name": "國外實體 澳洲",
+       "fx": "AUD"
+      },
+      {
+       "g": "國外實體",
+       "name": "國外實體 紐西蘭",
+       "fx": "NZD"
       }
      ]
     },
     {
      "id": "up",
-     "name": "Up選",
+     "name": "UP選",
      "cost": 149,
      "rules": [
       {
        "label": "百大特店 +3.5%",
        "rate": 3.5,
        "cap": 5000,
-       "fx": true,
-       "keywords": "LINE Pay,街口,悠遊付,全盈,全支付,玉山Wallet,支付寶,中油,台鐵,高鐵,UBER,台塑石油,新光三越,遠東,SOGO,微風,台北101,誠品,UBER EATS,foodpanda,王品,中華航空,華航,長榮,日本航空,Trip.com,Klook,KKday,Apple,小米,拓元,威秀,國賓,錢櫃,家樂福,屈臣氏,康是美,UNIQLO,杏一,momo,蝦皮,淘寶,Coupang,酷澎,特斯拉",
-       "exclude": "7-ELEVEN,7ELEVEN,全家,萊爾富,全聯"
+       "fx": "JPY|KRW|THB|VND|SGD|MYR|PHP|CNY|HKD|MOP|USD|CAD|GBP|EUR|AUD|NZD",
+       "keywords": "玉山Wallet,LINE Pay,全支付,PX Pay,PXPay,街口,JKO,悠遊付,Easy Wallet,全盈,iPASS MONEY,一卡通,icash Pay,icashpay,支付寶,ALIPAY,momo,富邦媒,蝦皮,Shopee,淘寶,TAOBAO,Coupang,酷澎,新光三越,SKM,SOGO,Garden City,大巨蛋,遠東百貨,遠百,巨城,Big City,漢神百貨,漢神洲際,微風,BREEZE,台北101,TAIPEI 101,華泰名品城,GLORIA OUTLETS,三井OUTLET,MITSUI OUTLET,誠品,eslite,秀泰,LaLaport,統一時代,DREAM PLAZA,昇恆昌,EVER RICH,環球購物中心,Global Mall,萬家福,樂家康,屈臣氏,Watsons,康是美,COSMED,特力屋,HOLA,hoi好好,UNIQLO,NET服飾,NET台灣,杏一,卡多摩,UBER EATS,UBEREATS,foodpanda,王品,中油,CPC,台塑石油,台亞,55688,台灣大車隊,台鐵,臺鐵,高鐵,THSR,UBER,中華航空,華航,CHINA AIRLINES,長榮航空,EVA AIR,日本航空,JAPAN AIRLINES,虎航,TIGERAIR,樂桃,PEACH,酷航,SCOOT,Trip.com,攜程,Booking.com,Hotels.com,Expedia,KKday,Klook,雄獅,可樂旅遊,東南旅,Agoda,五福旅,加利利,找到了旅行社,喜鴻,鳳凰旅,Apple Store,APPLE直營,小米,Xiaomi,全國電子,燦坤,拓元,tixCraft,威秀,VIESHOW,國賓影城,新光影城,錢櫃,愛心捐款,特斯拉,TESLA",
+       "exclude": "7-ELEVEN,7ELEVEN,全家,萊爾富,OK超商,全聯,稅"
       }
      ]
     }
@@ -2331,6 +2836,32 @@
     "src": "ana"
    }
   ],
+  "星展現金積點": [
+   {
+    "p": "亞洲萬里通",
+    "pts": 1,
+    "mi": 2,
+    "ppm": 0.5,
+    "to": "2027-06-30",
+    "src": "dbs"
+   },
+   {
+    "p": "長榮",
+    "pts": 1,
+    "mi": 2,
+    "ppm": 0.5,
+    "to": "2027-06-30",
+    "src": "dbs"
+   },
+   {
+    "p": "華航",
+    "pts": 9,
+    "mi": 10,
+    "ppm": 0.9,
+    "to": "2027-06-30",
+    "src": "dbs"
+   }
+  ],
   "滙豐旅遊積分": [
    {
     "p": "長榮",
@@ -2438,8 +2969,13 @@
   ]
  },
  "convertMeta": {
-  "checked": "2026-11-01",
+  "checked": "2026-11-02",
   "src": {
+   "dbs": {
+    "name": "星展銀行官網 現金積點兌換哩程",
+    "url": "https://www.dbs.com.tw/personal-zh/cards/rewards/cash-redeem-mileage",
+    "official": true
+   },
    "cathay27": {
     "name": "國泰世華官網 2027 點數公告",
     "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/discount/2027/pointannounceInfo/index.html",
