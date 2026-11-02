@@ -125,7 +125,7 @@
   },
   {
    "key": "unicard",
-   "rev": 3,
+   "rev": 4,
    "pointName": "玉山 e point",
    "bank": "玉山",
    "name": "Unicard",
@@ -673,6 +673,7 @@
      "id": "up",
      "name": "UP選",
      "cost": 149,
+     "lock": true,
      "rules": [
       {
        "label": "百大特店 +3.5%",
