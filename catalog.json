@@ -1,5 +1,5 @@
 {
- "version": "2026-11-02",
+ "version": "2026-11-03",
  "presets": [
   {
    "key": "cube",
@@ -125,7 +125,7 @@
   },
   {
    "key": "unicard",
-   "rev": 4,
+   "rev": 5,
    "pointName": "玉山 e point",
    "bank": "玉山",
    "name": "Unicard",
@@ -133,9 +133,9 @@
    "pointValue": 1,
    "base": 1,
    "switch": "monthly",
-   "note": "回饋以「當月最後一天」的方案計算整個月；每月可在玉山Wallet切換 30 次（含改任意選的店家）。一般 1% 需玉山帳戶自動扣繳＋電子帳單，否則 0.3%。UP選每月 149 點（上月刷 3 萬且平均資產 30 萬免費），升級後當月不能切回。帳單上要顯示該特店名稱；行動支付以外的通路多半要刷實體卡（含 Apple／Google／Samsung Pay）。國外實體限指定國家、網購不算。超商、稅費不回饋。活動期間 2026/7/1–12/31。",
+   "note": "回饋以「當月最後一天」的方案計算整個月；每月可在玉山Wallet切換 30 次（含改任意選的店家）。一般 1% 需玉山帳戶自動扣繳＋電子帳單，否則 0.3%。UP選每月 149 點（上月刷 3 萬且平均資產 30 萬免費），升級後當月不能切回。帳單上要顯示該特店名稱；行動支付以外的通路多半要刷實體卡（含 Apple／Google／Samsung Pay）。國外實體限指定國家、網購不算。Apple直營店＝Apple 台北101、信義A13 和台灣 Apple Store 線上商城；App Store、iCloud（帳單寫 APPLE.COM/BILL）和國外 Apple Store 不算。台灣中油限直營站；新光三越含 SKM Park；誠品含誠品線上。超商、稅費不回饋。活動期間 2026/7/1–12/31。",
    "src": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard",
-   "updated": "2026-11-02",
+   "updated": "2026-11-03",
    "compiled": false,
    "plans": [
     {
@@ -147,8 +147,8 @@
        "rate": 2,
        "cap": 1000,
        "fx": "JPY|KRW|THB|VND|SGD|MYR|PHP|CNY|HKD|MOP|USD|CAD|GBP|EUR|AUD|NZD",
-       "keywords": "玉山Wallet,LINE Pay,全支付,PX Pay,PXPay,街口,JKO,悠遊付,Easy Wallet,全盈,iPASS MONEY,一卡通,icash Pay,icashpay,支付寶,ALIPAY,momo,富邦媒,蝦皮,Shopee,淘寶,TAOBAO,Coupang,酷澎,新光三越,SKM,SOGO,Garden City,大巨蛋,遠東百貨,遠百,巨城,Big City,漢神百貨,漢神洲際,微風,BREEZE,台北101,TAIPEI 101,華泰名品城,GLORIA OUTLETS,三井OUTLET,MITSUI OUTLET,誠品,eslite,秀泰,LaLaport,統一時代,DREAM PLAZA,昇恆昌,EVER RICH,環球購物中心,Global Mall,萬家福,樂家康,屈臣氏,Watsons,康是美,COSMED,特力屋,HOLA,hoi好好,UNIQLO,NET服飾,NET台灣,杏一,卡多摩,UBER EATS,UBEREATS,foodpanda,王品,中油,CPC,台塑石油,台亞,55688,台灣大車隊,台鐵,臺鐵,高鐵,THSR,UBER,中華航空,華航,CHINA AIRLINES,長榮航空,EVA AIR,日本航空,JAPAN AIRLINES,虎航,TIGERAIR,樂桃,PEACH,酷航,SCOOT,Trip.com,攜程,Booking.com,Hotels.com,Expedia,KKday,Klook,雄獅,可樂旅遊,東南旅,Agoda,五福旅,加利利,找到了旅行社,喜鴻,鳳凰旅,Apple Store,APPLE直營,小米,Xiaomi,全國電子,燦坤,拓元,tixCraft,威秀,VIESHOW,國賓影城,新光影城,錢櫃,愛心捐款,特斯拉,TESLA",
-       "exclude": "7-ELEVEN,7ELEVEN,全家,萊爾富,OK超商,全聯,稅"
+       "keywords": "玉山Wallet,LINE Pay,全支付,PX Pay,PXPay,街口,JKO,悠遊付,Easy Wallet,全盈,iPASS MONEY,一卡通,icash Pay,icashpay,支付寶,ALIPAY,momo,富邦媒,蝦皮,Shopee,淘寶,TAOBAO,Coupang,酷澎,新光三越,SKM,SOGO,Garden City,大巨蛋,遠東百貨,遠百,巨城,Big City,漢神百貨,漢神洲際,微風,BREEZE,台北101,TAIPEI 101,華泰名品城,GLORIA OUTLETS,三井OUTLET,MITSUI OUTLET,誠品,eslite,秀泰,LaLaport,統一時代,DREAM PLAZA,昇恆昌,EVER RICH,環球購物中心,Global Mall,萬家福,樂家康,屈臣氏,Watsons,康是美,COSMED,特力屋,HOLA,hoi好好,UNIQLO,NET服飾,NET台灣,杏一,卡多摩,UBER EATS,UBEREATS,foodpanda,王品,中油,CPC,台塑石油,台亞,55688,台灣大車隊,台鐵,臺鐵,高鐵,THSR,UBER,中華航空,華航,CHINA AIRLINES,長榮航空,EVA AIR,日本航空,JAPAN AIRLINES,虎航,TIGERAIR,樂桃,PEACH,酷航,SCOOT,Trip.com,攜程,Booking.com,Hotels.com,Expedia,KKday,Klook,雄獅,可樂旅遊,東南旅,Agoda,五福旅,加利利,找到了旅行社,喜鴻,鳳凰旅,Apple Store,Apple直營,APPLE ONLINE,Apple台北101,Apple 台北101,Apple信義,Apple 信義,蘋果直營,蘋果官網,小米,Xiaomi,全國電子,燦坤,拓元,tixCraft,威秀,VIESHOW,國賓影城,新光影城,錢櫃,愛心捐款,特斯拉,TESLA",
+       "exclude": "7-ELEVEN,7ELEVEN,全家,萊爾富,OK超商,全聯,稅,COM/BILL,ITUNES,APP STORE,iCloud"
       }
      ]
     },
@@ -159,7 +159,7 @@
      "pickRule": {
       "rate": 2.5,
       "cap": 1000,
-      "exclude": "7-ELEVEN,7ELEVEN,全家,萊爾富,OK超商,全聯,稅"
+      "exclude": "7-ELEVEN,7ELEVEN,全家,萊爾富,OK超商,全聯,稅,COM/BILL,ITUNES,APP STORE,iCloud"
      },
      "pickDefault": [
       "LINE Pay",
@@ -525,7 +525,7 @@
       {
        "g": "精選商家",
        "name": "Apple直營店",
-       "kw": "Apple Store,APPLE直營"
+       "kw": "Apple Store,Apple直營,APPLE ONLINE,Apple台北101,Apple 台北101,Apple信義,Apple 信義,蘋果直營,蘋果官網"
       },
       {
        "g": "精選商家",
@@ -680,8 +680,8 @@
        "rate": 3.5,
        "cap": 5000,
        "fx": "JPY|KRW|THB|VND|SGD|MYR|PHP|CNY|HKD|MOP|USD|CAD|GBP|EUR|AUD|NZD",
-       "keywords": "玉山Wallet,LINE Pay,全支付,PX Pay,PXPay,街口,JKO,悠遊付,Easy Wallet,全盈,iPASS MONEY,一卡通,icash Pay,icashpay,支付寶,ALIPAY,momo,富邦媒,蝦皮,Shopee,淘寶,TAOBAO,Coupang,酷澎,新光三越,SKM,SOGO,Garden City,大巨蛋,遠東百貨,遠百,巨城,Big City,漢神百貨,漢神洲際,微風,BREEZE,台北101,TAIPEI 101,華泰名品城,GLORIA OUTLETS,三井OUTLET,MITSUI OUTLET,誠品,eslite,秀泰,LaLaport,統一時代,DREAM PLAZA,昇恆昌,EVER RICH,環球購物中心,Global Mall,萬家福,樂家康,屈臣氏,Watsons,康是美,COSMED,特力屋,HOLA,hoi好好,UNIQLO,NET服飾,NET台灣,杏一,卡多摩,UBER EATS,UBEREATS,foodpanda,王品,中油,CPC,台塑石油,台亞,55688,台灣大車隊,台鐵,臺鐵,高鐵,THSR,UBER,中華航空,華航,CHINA AIRLINES,長榮航空,EVA AIR,日本航空,JAPAN AIRLINES,虎航,TIGERAIR,樂桃,PEACH,酷航,SCOOT,Trip.com,攜程,Booking.com,Hotels.com,Expedia,KKday,Klook,雄獅,可樂旅遊,東南旅,Agoda,五福旅,加利利,找到了旅行社,喜鴻,鳳凰旅,Apple Store,APPLE直營,小米,Xiaomi,全國電子,燦坤,拓元,tixCraft,威秀,VIESHOW,國賓影城,新光影城,錢櫃,愛心捐款,特斯拉,TESLA",
-       "exclude": "7-ELEVEN,7ELEVEN,全家,萊爾富,OK超商,全聯,稅"
+       "keywords": "玉山Wallet,LINE Pay,全支付,PX Pay,PXPay,街口,JKO,悠遊付,Easy Wallet,全盈,iPASS MONEY,一卡通,icash Pay,icashpay,支付寶,ALIPAY,momo,富邦媒,蝦皮,Shopee,淘寶,TAOBAO,Coupang,酷澎,新光三越,SKM,SOGO,Garden City,大巨蛋,遠東百貨,遠百,巨城,Big City,漢神百貨,漢神洲際,微風,BREEZE,台北101,TAIPEI 101,華泰名品城,GLORIA OUTLETS,三井OUTLET,MITSUI OUTLET,誠品,eslite,秀泰,LaLaport,統一時代,DREAM PLAZA,昇恆昌,EVER RICH,環球購物中心,Global Mall,萬家福,樂家康,屈臣氏,Watsons,康是美,COSMED,特力屋,HOLA,hoi好好,UNIQLO,NET服飾,NET台灣,杏一,卡多摩,UBER EATS,UBEREATS,foodpanda,王品,中油,CPC,台塑石油,台亞,55688,台灣大車隊,台鐵,臺鐵,高鐵,THSR,UBER,中華航空,華航,CHINA AIRLINES,長榮航空,EVA AIR,日本航空,JAPAN AIRLINES,虎航,TIGERAIR,樂桃,PEACH,酷航,SCOOT,Trip.com,攜程,Booking.com,Hotels.com,Expedia,KKday,Klook,雄獅,可樂旅遊,東南旅,Agoda,五福旅,加利利,找到了旅行社,喜鴻,鳳凰旅,Apple Store,Apple直營,APPLE ONLINE,Apple台北101,Apple 台北101,Apple信義,Apple 信義,蘋果直營,蘋果官網,小米,Xiaomi,全國電子,燦坤,拓元,tixCraft,威秀,VIESHOW,國賓影城,新光影城,錢櫃,愛心捐款,特斯拉,TESLA",
+       "exclude": "7-ELEVEN,7ELEVEN,全家,萊爾富,OK超商,全聯,稅,COM/BILL,ITUNES,APP STORE,iCloud"
       }
      ]
     }
