@@ -2765,7 +2765,7 @@
   },
   {
    "key": "ctbc-linepay-infinite",
-   "rev": 2,
+   "rev": 3,
    "bank": "中信",
    "name": "LINE Pay 鼎極卡",
    "unit": "點",
@@ -2797,6 +2797,34 @@
        "name": "鼎極卡",
        "limit": 2,
        "any": [
+        {
+         "min": 600000,
+         "stmt": 12
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "lounge",
+     "name": "機場貴賓室",
+     "kind": "lounge",
+     "scope": "bank",
+     "src": "https://roo.cash/blog/travel-airport-lounge-creditcard",
+     "note": "環亞、東方宇逸等指定貴賓室，每戶一年 4 次（正附卡合併）。符合任一條件：上一期帳單新增消費滿 2 萬、前 3 期合計滿 10 萬、前 12 期合計滿 60 萬。不用刷機票。整理自比較網站（中信華航無限卡同一套門檻），請到中信官網或客服核對。",
+     "tiers": [
+      {
+       "name": "鼎極卡",
+       "limit": 4,
+       "any": [
+        {
+         "min": 20000,
+         "stmt": 1
+        },
+        {
+         "min": 100000,
+         "stmt": 3
+        },
         {
          "min": 600000,
          "stmt": 12
