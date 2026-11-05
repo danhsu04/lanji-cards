@@ -1,5 +1,5 @@
 {
- "version": "2026-11-04",
+ "version": "2026-11-05",
  "presets": [
   {
    "key": "cube",
@@ -2584,7 +2584,7 @@
   },
   {
    "key": "sinopac-sport",
-   "rev": 1,
+   "rev": 2,
    "bank": "永豐",
    "name": "SPORT 卡",
    "unit": "點",
@@ -2595,13 +2595,13 @@
     {
      "label": "行動支付／運動／醫藥／電競 4%",
      "rate": 3,
-     "keywords": "Apple Pay,Google Pay,Google 錢包,Google Wallet,Samsung Pay,Samsung Wallet,Garmin Pay,健身,World Gym,健身工廠,Anytime Fitness,迪卡儂,DECATHLON,運動中心,藥局,大樹,杏一,丁丁,診所,醫院,Steam,PlayStation,Nintendo,任天堂",
+     "keywords": "Apple Pay,Google Pay,Google 錢包,Google Wallet,Samsung Pay,Samsung Wallet,Garmin Pay,World Gym,健身工廠,Curves,可爾姿,台北市運動中心,新北市運動中心,運動中心,Nuli,摩曼頓,超核心,Anytime Fitness,DAZN,喬山,Welltivity,屈臣氏,Watsons,康是美,COSMED,寶雅,POYA,好心肝,杏一,大樹藥局,丁丁藥局,新高橋,App Store,APPLE.COM/BILL,Google Play,GOOGLE PLAY,Nintendo,任天堂,PlayStation,SONY INTERACTIVE,Steam",
      "cap": 300
     }
    ],
-   "note": "一般 1% 要電子帳單，否則 0.3%。行動支付（Apple／Google／Samsung／Garmin Pay）、運動健身、醫藥保健、電競加碼 3%，要當月運動 1 萬大卡＋永豐帳戶扣繳，加碼每月上限 300 點（約 1 萬元）。運動達標另全通路 +1%（上限 50 點），先不計。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
-   "src": "https://www.beurlife.com/2017/12/2018-High-Cash-Rebate-Credit-Card.html",
-   "updated": "2026-11-01",
+   "note": "2026/7/1–12/31。一般 1% 要電子（或行動）帳單，否則 0.3%。用 Apple／Google／Samsung／Garmin Pay 付款（任何店都算），或在指定運動健身、醫藥保健、電競通路刷卡，加碼 3%，每月上限 300 點（刷 1 萬元），要設定永豐帳戶自動扣繳。另外當月運動 1 萬大卡（或 Apple Watch 畫圈 10 次）全通路再 +1%（每月上限 50 點），懶記看不到運動數據，先不計。回饋次次月折抵。2026 起 Apple 商店、運動用品（NIKE、adidas）不在指定通路，但用 Apple Pay 付仍算。 整理自比較網站（2026/10–11 查），帳戶扣繳、電子帳單、等級等條件先假設已達成，帶入後請到官網核對。",
+   "src": "https://www.beurlife.com/2020/09/sinobank-sport-credit-card.html",
+   "updated": "2026-11-05",
    "compiled": true
   },
   {
