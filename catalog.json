@@ -1,9 +1,9 @@
 {
- "version": "2026-11-05",
+ "version": "2026-11-11",
  "presets": [
   {
    "key": "cube",
-   "rev": 2,
+   "rev": 3,
    "pointName": "小樹點",
    "bank": "國泰",
    "name": "CUBE 卡",
@@ -13,7 +13,7 @@
    "switch": "daily",
    "note": "每天只能用一種權益；當天 23:59 前最後切的權益，適用當天 0 點起所有消費（依授權日）。玩數位／樂饗購／趣旅行 3% 需 Level 2（國泰帳戶自動扣繳卡費）。",
    "src": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/CUBE_rights/index.html",
-   "updated": "2026-11-01",
+   "updated": "2026-11-11",
    "plans": [
     {
      "id": "digital",
@@ -23,7 +23,8 @@
        "label": "玩數位 3%",
        "rate": 2.7,
        "category": "訂閱",
-       "keywords": "ChatGPT,OpenAI,Claude,Anthropic,Gemini,Notion,Canva,APPLE.COM,iTunes,Google Play,NETFLIX,SPOTIFY,YOUTUBE,蝦皮,Shopee,momo,PChome,Coupang,酷澎,淘寶,天貓"
+       "keywords": "ChatGPT,OpenAI,Claude,Anthropic,Gemini,Cursor,Duolingo,Gamma,Notion,Perplexity,Speak,Canva,APPLE.COM,iTunes,Apple Music,Google Play,NETFLIX,SPOTIFY,YOUTUBE,Disney,HBO,蝦皮,Shopee,momo,PChome,小樹購,Coupang,酷澎,淘寶,TAOBAO,天貓,TMALL",
+       "exclude": "PChomePay,PCHOMEPAY,momo電視,TV購物"
       }
      ]
     },
