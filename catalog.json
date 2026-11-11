@@ -3,7 +3,7 @@
  "presets": [
   {
    "key": "cube",
-   "rev": 3,
+   "rev": 4,
    "pointName": "小樹點",
    "bank": "國泰",
    "name": "CUBE 卡",
@@ -23,8 +23,9 @@
        "label": "玩數位 3%",
        "rate": 2.7,
        "category": "訂閱",
-       "keywords": "ChatGPT,OpenAI,Claude,Anthropic,Gemini,Cursor,Duolingo,Gamma,Notion,Perplexity,Speak,Canva,APPLE.COM,iTunes,Apple Music,Google Play,NETFLIX,SPOTIFY,YOUTUBE,Disney,HBO,蝦皮,Shopee,momo,PChome,小樹購,Coupang,酷澎,淘寶,TAOBAO,天貓,TMALL",
-       "exclude": "PChomePay,PCHOMEPAY,momo電視,TV購物"
+       "keywords": "ChatGPT,OpenAI,Claude,Anthropic,Gemini,Cursor,Duolingo,Gamma,Notion,Perplexity,Speak,Canva,APPLE.COM,iTunes,Apple Music,Google Play,NETFLIX,SPOTIFY,YOUTUBE,Disney,HBO,蝦皮,Shopee,momo,PChome,小樹購,Coupang,酷澎,淘寶,TAOBAO,天貓,TMALL,支付寶,ALIPAY,ALP*",
+       "exclude": "PChomePay,PCHOMEPAY,momo電視,TV購物",
+       "why": "支付寶（ALP*）海外線上：國泰把它算成淘寶／天貓的付款，CUBE App 回饋明細顯示「玩數位 · 指定線上消費 3%」（Dan 2026/11/6 的消費）"
       }
      ]
     },
